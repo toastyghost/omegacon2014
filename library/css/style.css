@@ -7792,7 +7792,7 @@ meta.foundation-mq-topbar {
   width: 100%;
   height: auto;
   display: block;
-  background: #4b4b4b;
+  background: #2d2d2d;
   font-size: 16px;
   margin: 0;
 }
@@ -7815,7 +7815,7 @@ meta.foundation-mq-topbar {
   font-size: 0.9375rem;
   font-weight: normal;
   text-transform: uppercase;
-  background: #4b4b4b;
+  background: #2d2d2d;
 }
 /* line 321, ../../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li > a.button {
@@ -7854,17 +7854,17 @@ meta.foundation-mq-topbar {
 }
 /* line 352, ../../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li:hover:not(.has-form) > a {
-  background: #272727;
-  color: white;
+  background: #4b4b4b;
+  color: #feee00;
 }
 /* line 359, ../../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li.active > a {
-  background: #008cba;
+  background: #2d2d2d;
   color: white;
 }
 /* line 362, ../../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li.active > a:hover {
-  background: #0078a0;
+  background: #222222;
   color: white;
 }
 /* line 370, ../../bower_components/foundation/scss/foundation/components/_top-bar.scss */
@@ -8032,8 +8032,8 @@ meta.foundation-mq-topbar {
   }
   /* line 490, ../../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section li.hover > a:not(.button) {
-    background: #272727;
-    color: white;
+    background: #4b4b4b;
+    color: #feee00;
   }
   /* line 496, ../../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section li:not(.has-form) a:not(.button) {
@@ -8043,18 +8043,18 @@ meta.foundation-mq-topbar {
   }
   /* line 500, ../../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section li:not(.has-form) a:not(.button):hover {
-    background: #272727;
+    background: #4b4b4b;
   }
   /* line 504, ../../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section li.active:not(.has-form) a:not(.button) {
     padding: 0 29px;
     line-height: 29px;
     color: white;
-    background: #008cba;
+    background: #2d2d2d;
   }
   /* line 509, ../../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section li.active:not(.has-form) a:not(.button):hover {
-    background: #0078a0;
+    background: #222222;
   }
   /* line 529, ../../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section .has-dropdown.moved {
@@ -8149,12 +8149,12 @@ meta.foundation-mq-topbar {
 
   /* line 624, ../../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .no-js .top-bar-section ul li:hover > a {
-    background: #272727;
-    color: white;
+    background: #4b4b4b;
+    color: #feee00;
   }
   /* line 630, ../../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .no-js .top-bar-section ul li:active > a {
-    background: #008cba;
+    background: #2d2d2d;
     color: white;
   }
   /* line 638, ../../bower_components/foundation/scss/foundation/components/_top-bar.scss */
@@ -10810,12 +10810,37 @@ MEDIUM
   /*********************
   NAVIGATION STYLES
   *********************/
+  /* line 15, ../scss/_medium.scss */
+  .top-bar {
+    text-align: center;
+  }
+  /* line 18, ../scss/_medium.scss */
+  .top-bar .top-bar-section {
+    display: inline-block;
+    height: 28px;
+    border: 1px solid #191919;
+    border-top: none;
+  }
+  /* line 24, ../scss/_medium.scss */
+  .top-bar .top-bar-section .menu-item > a {
+    height: 28px;
+    border: 1px solid #2d2d2d;
+    border-right-color: #191919;
+    border-top: none;
+  }
+  /* line 33, ../scss/_medium.scss */
+  .top-bar .top-bar-section .current-menu-item > a,
+  .top-bar .top-bar-section .current-menu-parent > a,
+  .top-bar .top-bar-section .menu-item:last-child > a {
+    border-right-color: #2d2d2d !important;
+  }
+
   /*********************
   POSTS & CONTENT STYLES
   *********************/
-  /* line 20, ../scss/_medium.scss */
+  /* line 44, ../scss/_medium.scss */
   #logo {
-    margin: 0 auto;
+    margin: -1px auto;
     display: block;
     width: 700px;
     height: 165px;
@@ -10826,23 +10851,23 @@ MEDIUM
   }
 
   /* entry content */
-  /* line 32, ../scss/_medium.scss */
+  /* line 56, ../scss/_medium.scss */
   .entry-content {
     /* at this larger size, we can start to align images */
   }
-  /* line 36, ../scss/_medium.scss */
+  /* line 60, ../scss/_medium.scss */
   .entry-content .alignleft, .entry-content img.alignleft {
     margin-right: 1.5em;
     display: inline;
     float: left;
   }
-  /* line 41, ../scss/_medium.scss */
+  /* line 65, ../scss/_medium.scss */
   .entry-content .alignright, .entry-content img.alignright {
     margin-left: 1.5em;
     display: inline;
     float: right;
   }
-  /* line 46, ../scss/_medium.scss */
+  /* line 70, ../scss/_medium.scss */
   .entry-content .aligncenter, .entry-content img.aligncenter {
     margin-right: auto;
     margin-left: auto;
@@ -10854,7 +10879,7 @@ MEDIUM
   /*********************
   SIDEBARS & ASIDES
   *********************/
-  /* line 59, ../scss/_medium.scss */
+  /* line 83, ../scss/_medium.scss */
   .widget {
     padding: 0 10px;
     margin: 2.2em 0;

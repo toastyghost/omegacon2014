@@ -56,9 +56,6 @@ jQuery(document).ready(function($) {
         $('.comment img[data-gravatar]').each(function(){
             $(this).attr('src',$(this).attr('data-gravatar'));
         });
-        
-        $('strong').filter(':contains("Categories"), :contains("Location"), :contains("Date/Time")').closest('p').remove();
-        $('.em-location-map-container').parent('div').css('float', 'left').insertBefore('h3:contains("Bookings")').after('<br style="clear:both">');
     }
     
     /* off the bat large screen actions */
@@ -69,6 +66,13 @@ jQuery(document).ready(function($) {
 	
 	// add all your scripts here
 	
+	// active menu border fix
+	$('.top-bar-section > ul > .current-menu-item, .top-bar-section .current-menu-parent').prev().children().css('border-right-color', '#2d2d2d');
+	
+	// registration page fixes
+	$('strong').filter(':contains("Categories"), :contains("Location"), :contains("Date/Time")').closest('p').remove();
+	$('.em-location-map-container').parent('div').css('float', 'left').insertBefore('h3:contains("Bookings")').after('<br style="clear:both">');
+	$('.em-map-balloon-content > a').remove();
  
 }); /* end of as page load scripts */
 

@@ -12,13 +12,37 @@ Styles apply to 40.063em and up.
 NAVIGATION STYLES
 *********************/
 
+.top-bar {
+	text-align: center;
+	
+	.top-bar-section {
+		display: inline-block;
+		height: 28px;
+		border: 1px solid #191919;
+		border-top: none;
+		
+		.menu-item > a {
+			height: 28px;
+			border: 1px solid #2d2d2d;
+			border-right-color: #191919;
+			border-top: none;
+		}
+		
+		.current-menu-item > a,
+		.current-menu-parent > a,
+		.menu-item:last-child > a {
+			border-right-color: #2d2d2d !important;
+		}
+	}
+}
+
 
 /*********************
 POSTS & CONTENT STYLES
 *********************/
 
 #logo {
-	margin: 0 auto;
+	margin: -1px auto;
 	display: block;
 	width: 700px;
 	height: 165px;
