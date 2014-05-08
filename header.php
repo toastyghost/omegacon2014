@@ -51,6 +51,15 @@
 						
 						<div id="branding" class="large-12 columns">
 							<h1 id="logo"><?php bloginfo('name'); ?></h1>
+							
+							<div id="dates" class="branding-centered">
+								August 15 - 17 at <a href="http://www.mainstarena.com" target="_blank">Main Street Arena</a> in Charlottesville
+							</div>
+							
+							<div id="header-ctas" class="branding-centered">
+								<a id="volunteer-cta" title="Volunteer" class="header-cta" href="/volunteer">Volunteer</a>
+								<a id="donate-cta" title="Donate" class="header-cta" href="/donate">Donate</a>
+							</div>
 						</div>
 
 						 <?php // get_template_part( 'partials/nav', 'topbar' ); ?>

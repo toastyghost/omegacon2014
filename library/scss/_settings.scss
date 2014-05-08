@@ -55,8 +55,8 @@
 // $default-float: left;
 
 // We use these as default colors throughout
-// $primary-color: #008CBA
-// $secondary-color: #e7e7e7;
+$primary-color: #b05c17; // #008CBA;
+$secondary-color: #ec9b57; // #e7e7e7;
 // $alert-color: #f04124;
 // $success-color: #43AC6A;
 // $warning-color: #f08a24;
@@ -164,7 +164,7 @@
 // We use these to style anchors
 // $anchor-text-decoration: none;
 // $anchor-font-color: $primary-color;
-// $anchor-font-color-hover: scale-color($primary-color, $lightness: -14%);
+$anchor-font-color-hover: scale-color($primary-color, $lightness: +14%);
 
 // We use these to style the <hr> element
 // $hr-border-width: 1px;
@@ -1160,7 +1160,7 @@ $topbar-link-bg-active: #2d2d2d;
 $topbar-link-bg-active-hover: scale-color(#272727, $lightness: -14%);
 $topbar-link-font-family: 'Montserrat', sans-serif;
 $topbar-link-text-transform: uppercase;
-$topbar-link-padding: $topbar-height;
+$topbar-link-padding: 18px; // $topbar-height;
 
 // $topbar-button-font-size: 0.75rem;
 // $topbar-button-top: 7px;
