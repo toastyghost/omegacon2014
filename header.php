@@ -57,9 +57,9 @@
 							</div>
 							
 							<div id="header-ctas" class="branding-centered">
-								<a id="volunteer-cta" title="Volunteer" class="header-cta" href="/volunteer">Volunteer</a>
-								<a id="donate-cta" title="Donate" class="header-cta" href="/donate">Donate</a>
-								<a id="tournaments-cta" title="Tournaments" class="header-cta" href="/tournaments">Tournaments</a>
+								<a id="volunteer-cta" title="Volunteer staff get free admission!" class="header-cta" href="/volunteer">Volunteer</a>
+								<a id="donate-cta" title="Make a donation to keep ticket costs low!" class="header-cta" href="/donate">Donate</a>
+								<a id="tournaments-cta" title="Compete in tournaments with fabulous prizes!" class="header-cta" href="/tournaments">Tournaments</a>
 							</div>
 						</div>
 

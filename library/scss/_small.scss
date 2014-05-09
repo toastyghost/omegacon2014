@@ -13,20 +13,17 @@ and will be used across all viewports.
 GENERAL STYLES
 *********************/
 #header-ctas {
-	margin: 0 auto;
-	max-width: 400px;
 	text-align: center;
 	
 	.header-cta {
 		padding: 0 25px;
-	}
-	
-	#volunteer-cta {
+		font-weight: bold;
+		background-color: #fff;
+		color: #000;
 		
-	}
-	
-	#donate-cta {
-		
+		&:hover {
+			background-color: #c3c3c3;
+		}
 	}
 }
 
@@ -735,7 +732,7 @@ FOOTER STYLES
 
 .footer {
 	clear: both;
-	margin-top: 1em;
+	margin-top: 2em;
 }
 
 #footer {
