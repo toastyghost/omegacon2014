@@ -53,7 +53,7 @@
 							<h1 id="logo"><?php bloginfo('name'); ?></h1>
 							
 							<div id="dates" class="branding-centered">
-								August 15 - 17 at <a href="http://www.mainstarena.com" target="_blank">Main Street Arena</a> in Charlottesville
+								August 15 - 17 at <a id="venue-logo" title="Main Street Arena" href="http://www.mainstarena.com" target="_blank">Main Street Arena</a> in Charlottesville
 							</div>
 							
 							<div id="header-ctas" class="branding-centered">

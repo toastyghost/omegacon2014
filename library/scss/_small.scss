@@ -12,11 +12,22 @@ and will be used across all viewports.
 /*********************
 GENERAL STYLES
 *********************/
+#venue-logo {
+	display: block;
+	margin: 0 auto;
+	width: 156px;
+	height: 65px;
+	background: transparent url('../images/layout/msarena_logo_sized_alpha.png') no-repeat;
+	overflow: hidden;
+	vertical-align: middle;
+	color: transparent;
+}
+
 #header-ctas {
 	text-align: center;
 	
 	.header-cta {
-		padding: 0 25px;
+		padding: 0 10px;
 		font-weight: bold;
 		background-color: #fff;
 		color: #000;
@@ -736,9 +747,8 @@ FOOTER STYLES
 }
 
 #footer {
-	bottom: 0;
 	width: 100%;
-	height: 120px;
+	height: 140px;
 	overflow: hidden;
 	
 	#inner-footer {

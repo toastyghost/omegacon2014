@@ -56,6 +56,20 @@ POSTS & CONTENT STYLES
 	width: 700px;
 }
 
+#venue-logo {
+	display: inline-block;
+	margin: 0 -27px;
+	padding-bottom: 96px;
+}
+
+#header-ctas {
+	margin-top: -34px;
+	
+	.header-cta {
+		padding: 0 25px;
+	}
+}
+
 /* entry content */
 .entry-content {
 			
