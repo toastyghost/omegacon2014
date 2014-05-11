@@ -581,7 +581,7 @@ body {
 /* line 348, ../../bower_components/foundation/scss/foundation/components/_global.scss */
 body {
   background: white;
-  color: #222222;
+  color: white;
   padding: 0;
   margin: 0;
   font-family: "Open Sans", Arial, sans-serif;
@@ -8874,7 +8874,7 @@ abbr,
 acronym {
   text-transform: uppercase;
   font-size: 90%;
-  color: #222222;
+  color: white;
   border-bottom: 1px dotted #dddddd;
   cursor: help;
 }
