@@ -10755,7 +10755,7 @@ SIDEBARS & ASIDES
 }
 
 /*********************
-EVENTS MANAGER CUSTOMIZATION
+EVENTS MANAGER STYLES
 *********************/
 /* line 704, ../scss/_small.scss */
 .em-tickets {
@@ -10835,31 +10835,39 @@ CONTACT FORM 7 STYLES
 }
 
 /*********************
+GOOGLE FORMS STYLES
+*********************/
+/* line 778, ../scss/_small.scss */
+.ss-form-container {
+  max-width: 75%;
+}
+
+/*********************
 FOOTER STYLES
 *********************/
-/* line 779, ../scss/_small.scss */
+/* line 786, ../scss/_small.scss */
 .footer {
   clear: both;
   margin-top: 2em;
 }
 
-/* line 784, ../scss/_small.scss */
+/* line 791, ../scss/_small.scss */
 #footer {
   width: 100%;
   height: 140px;
   overflow: hidden;
 }
-/* line 789, ../scss/_small.scss */
+/* line 796, ../scss/_small.scss */
 #footer #inner-footer {
   display: inline-block;
   position: relative;
   width: 200%;
 }
-/* line 794, ../scss/_small.scss */
+/* line 801, ../scss/_small.scss */
 #footer #inner-footer #dummy {
   margin-top: 100%;
 }
-/* line 798, ../scss/_small.scss */
+/* line 805, ../scss/_small.scss */
 #footer #inner-footer #footer-container {
   position: absolute;
   top: 0;
@@ -10870,7 +10878,7 @@ FOOTER STYLES
   border-radius: 50%;
   box-shadow: inset 0 0 240px rgba(255, 255, 255, 0.6);
 }
-/* line 808, ../scss/_small.scss */
+/* line 815, ../scss/_small.scss */
 #footer #inner-footer #footer-container #footer-content {
   margin: 0 auto;
   max-width: 940px;
@@ -10892,7 +10900,7 @@ view.
 /*********************
 FOUNDATION STYLES
 *********************/
-/* line 844, ../scss/_small.scss */
+/* line 851, ../scss/_small.scss */
 .clearing-assembled.clearing-blackout a:hover {
   background: none;
 }
@@ -10900,7 +10908,7 @@ FOUNDATION STYLES
 /*********************
 PLUGIN STYLES
 *********************/
-/* line 852, ../scss/_small.scss */
+/* line 859, ../scss/_small.scss */
 .gform_body ul {
   list-style: none outside none;
   margin: 0;

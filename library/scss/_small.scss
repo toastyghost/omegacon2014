@@ -699,7 +699,7 @@ SIDEBARS & ASIDES
 }
 
 /*********************
-EVENTS MANAGER CUSTOMIZATION
+EVENTS MANAGER STYLES
 *********************/
 .em-tickets {
 	float: left;
@@ -770,6 +770,13 @@ CONTACT FORM 7 STYLES
 .wpcf7-select,
 .wpcf7-submit {
 	color: black;
+}
+
+/*********************
+GOOGLE FORMS STYLES
+*********************/
+.ss-form-container {
+	max-width: 75%;
 }
 
 /*********************
