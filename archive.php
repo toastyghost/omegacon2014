@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 			
-			<div id="content">
+			<div id="content">test
 			
 				<div id="inner-content" class="row clearfix">
 				
