@@ -776,7 +776,67 @@ CONTACT FORM 7 STYLES
 GOOGLE FORMS STYLES
 *********************/
 .ss-form-container {
-	max-width: 75%;
+	max-width: 70%;
+}
+
+.ss-form-heading .ss-required-asterisk {
+	margin-bottom: 20px;
+}
+
+.ss-q-title,
+.ss-choice-label {
+	font-family: 'Open Sans', Arial, sans-serif;
+	color: #fff;
+	
+	label {
+		display: inline;
+	}
+	
+	.ss-required-asterisk {
+		color: #ff0000;
+	}
+}
+
+.ss-choice-label {
+	font-size: 13px;
+}
+
+.ss-text .ss-q-short {
+	width: 400px;
+}
+
+.ss-radio,
+.ss-checkbox {
+	margin-top: 40px;
+	margin-bottom: 48px;
+	
+	ul {
+		margin-top: 16px;
+	}
+}
+
+.ss-choice-item-control {
+	input {
+		margin-bottom: 0.5rem;
+	}
+}
+
+.ss-q-other {
+	height: 1.666rem !important;
+	max-width: 300px;
+}
+
+.ss-paragraph-text {
+	textarea {
+		width: 400px;
+	}
+}
+
+.wpgform-user-email,
+.wpgform-captcha {
+	label {
+		color: #000;
+	}
 }
 
 /*********************
