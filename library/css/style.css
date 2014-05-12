@@ -10778,18 +10778,23 @@ EVENTS MANAGER CUSTOMIZATION
   font-weight: normal;
 }
 
-/* line 725, ../scss/_small.scss */
+/* line 724, ../scss/_small.scss */
+.em-booking-buttons {
+  color: #000;
+}
+
+/* line 729, ../scss/_small.scss */
 strong:contains("Location"),
 strong:contains("Categories") {
   display: none;
 }
 
-/* line 729, ../scss/_small.scss */
+/* line 733, ../scss/_small.scss */
 .em-booking-buttons {
   margin-top: 10px;
 }
 
-/* line 734, ../scss/_small.scss */
+/* line 738, ../scss/_small.scss */
 .ui-datepicker option {
   color: #000;
 }
@@ -10797,29 +10802,29 @@ strong:contains("Categories") {
 /*********************
 FOOTER STYLES
 *********************/
-/* line 744, ../scss/_small.scss */
+/* line 748, ../scss/_small.scss */
 .footer {
   clear: both;
   margin-top: 2em;
 }
 
-/* line 749, ../scss/_small.scss */
+/* line 753, ../scss/_small.scss */
 #footer {
   width: 100%;
   height: 140px;
   overflow: hidden;
 }
-/* line 754, ../scss/_small.scss */
+/* line 758, ../scss/_small.scss */
 #footer #inner-footer {
   display: inline-block;
   position: relative;
   width: 200%;
 }
-/* line 759, ../scss/_small.scss */
+/* line 763, ../scss/_small.scss */
 #footer #inner-footer #dummy {
   margin-top: 100%;
 }
-/* line 763, ../scss/_small.scss */
+/* line 767, ../scss/_small.scss */
 #footer #inner-footer #footer-container {
   position: absolute;
   top: 0;
@@ -10830,7 +10835,7 @@ FOOTER STYLES
   border-radius: 50%;
   box-shadow: inset 0 0 240px rgba(255, 255, 255, 0.6);
 }
-/* line 773, ../scss/_small.scss */
+/* line 777, ../scss/_small.scss */
 #footer #inner-footer #footer-container #footer-content {
   margin: 0 auto;
   max-width: 940px;
@@ -10852,7 +10857,7 @@ view.
 /*********************
 FOUNDATION STYLES
 *********************/
-/* line 809, ../scss/_small.scss */
+/* line 813, ../scss/_small.scss */
 .clearing-assembled.clearing-blackout a:hover {
   background: none;
 }
@@ -10860,7 +10865,7 @@ FOUNDATION STYLES
 /*********************
 PLUGIN STYLES
 *********************/
-/* line 817, ../scss/_small.scss */
+/* line 821, ../scss/_small.scss */
 .gform_body ul {
   list-style: none outside none;
   margin: 0;
