@@ -49,6 +49,7 @@ body {
 }
 
 #main {
+	min-height: 467px;
 	background-color: rgba(0,0,0,0.7);
 }
 
@@ -252,7 +253,7 @@ POSTS & CONTENT STYLES
 .post-id {}         /* post by id (i.e. post-3) */
 .post {}            /* general post style */
 .page {
-	min-height: 467px;
+	// min-height: 467px;
 }            /* general article on a page style */
 .attachment {}      /* general style on an attatchment */
 .sticky {}          /* sticky post style */
