@@ -10799,10 +10799,31 @@ strong:contains("Categories") {
   color: #000;
 }
 
+/* line 744, ../scss/_small.scss */
+.em-attendee-fields:before {
+  margin-left: 12px;
+  content: 'Attendee Info';
+  color: #000;
+  font-size: 16px;
+  font-weight: bold;
+}
+/* line 752, ../scss/_small.scss */
+.em-attendee-fields label, .em-attendee-fields input {
+  margin-top: 12px;
+}
+/* line 756, ../scss/_small.scss */
+.em-attendee-fields label {
+  margin-left: 24px;
+}
+/* line 760, ../scss/_small.scss */
+.em-attendee-fields input {
+  max-width: 200px;
+}
+
 /*********************
 CONTACT FORM 7 STYLES
 *********************/
-/* line 747, ../scss/_small.scss */
+/* line 769, ../scss/_small.scss */
 .wpcf7-select,
 .wpcf7-submit {
   color: black;
@@ -10811,29 +10832,29 @@ CONTACT FORM 7 STYLES
 /*********************
 FOOTER STYLES
 *********************/
-/* line 755, ../scss/_small.scss */
+/* line 777, ../scss/_small.scss */
 .footer {
   clear: both;
   margin-top: 2em;
 }
 
-/* line 760, ../scss/_small.scss */
+/* line 782, ../scss/_small.scss */
 #footer {
   width: 100%;
   height: 140px;
   overflow: hidden;
 }
-/* line 765, ../scss/_small.scss */
+/* line 787, ../scss/_small.scss */
 #footer #inner-footer {
   display: inline-block;
   position: relative;
   width: 200%;
 }
-/* line 770, ../scss/_small.scss */
+/* line 792, ../scss/_small.scss */
 #footer #inner-footer #dummy {
   margin-top: 100%;
 }
-/* line 774, ../scss/_small.scss */
+/* line 796, ../scss/_small.scss */
 #footer #inner-footer #footer-container {
   position: absolute;
   top: 0;
@@ -10844,7 +10865,7 @@ FOOTER STYLES
   border-radius: 50%;
   box-shadow: inset 0 0 240px rgba(255, 255, 255, 0.6);
 }
-/* line 784, ../scss/_small.scss */
+/* line 806, ../scss/_small.scss */
 #footer #inner-footer #footer-container #footer-content {
   margin: 0 auto;
   max-width: 940px;
@@ -10866,7 +10887,7 @@ view.
 /*********************
 FOUNDATION STYLES
 *********************/
-/* line 820, ../scss/_small.scss */
+/* line 842, ../scss/_small.scss */
 .clearing-assembled.clearing-blackout a:hover {
   background: none;
 }
@@ -10874,7 +10895,7 @@ FOUNDATION STYLES
 /*********************
 PLUGIN STYLES
 *********************/
-/* line 828, ../scss/_small.scss */
+/* line 850, ../scss/_small.scss */
 .gform_body ul {
   list-style: none outside none;
   margin: 0;

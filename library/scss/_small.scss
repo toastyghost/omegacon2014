@@ -740,6 +740,28 @@ strong:contains("Categories") {
 	}
 }
 
+.em-attendee-fields {
+	&:before {
+		margin-left: 12px;
+		content: 'Attendee Info';
+		color: #000;
+		font-size: 16px;
+		font-weight: bold;
+	}
+	
+	label, input {
+		margin-top: 12px;
+	}
+	
+	label {
+		margin-left: 24px;
+	}
+	
+	input {
+		max-width: 200px;
+	}
+}
+
 /*********************
 CONTACT FORM 7 STYLES
 *********************/
