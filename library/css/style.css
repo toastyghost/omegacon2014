@@ -10800,31 +10800,39 @@ strong:contains("Categories") {
 }
 
 /*********************
+CONTACT FORM 7 STYLES
+*********************/
+/* line 746, ../scss/_small.scss */
+.wpcf7-submit {
+  color: black;
+}
+
+/*********************
 FOOTER STYLES
 *********************/
-/* line 748, ../scss/_small.scss */
+/* line 754, ../scss/_small.scss */
 .footer {
   clear: both;
   margin-top: 2em;
 }
 
-/* line 753, ../scss/_small.scss */
+/* line 759, ../scss/_small.scss */
 #footer {
   width: 100%;
   height: 140px;
   overflow: hidden;
 }
-/* line 758, ../scss/_small.scss */
+/* line 764, ../scss/_small.scss */
 #footer #inner-footer {
   display: inline-block;
   position: relative;
   width: 200%;
 }
-/* line 763, ../scss/_small.scss */
+/* line 769, ../scss/_small.scss */
 #footer #inner-footer #dummy {
   margin-top: 100%;
 }
-/* line 767, ../scss/_small.scss */
+/* line 773, ../scss/_small.scss */
 #footer #inner-footer #footer-container {
   position: absolute;
   top: 0;
@@ -10835,7 +10843,7 @@ FOOTER STYLES
   border-radius: 50%;
   box-shadow: inset 0 0 240px rgba(255, 255, 255, 0.6);
 }
-/* line 777, ../scss/_small.scss */
+/* line 783, ../scss/_small.scss */
 #footer #inner-footer #footer-container #footer-content {
   margin: 0 auto;
   max-width: 940px;
@@ -10857,7 +10865,7 @@ view.
 /*********************
 FOUNDATION STYLES
 *********************/
-/* line 813, ../scss/_small.scss */
+/* line 819, ../scss/_small.scss */
 .clearing-assembled.clearing-blackout a:hover {
   background: none;
 }
@@ -10865,7 +10873,7 @@ FOUNDATION STYLES
 /*********************
 PLUGIN STYLES
 *********************/
-/* line 821, ../scss/_small.scss */
+/* line 827, ../scss/_small.scss */
 .gform_body ul {
   list-style: none outside none;
   margin: 0;
