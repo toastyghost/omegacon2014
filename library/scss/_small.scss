@@ -251,7 +251,9 @@ POSTS & CONTENT STYLES
 /* want to style individual post classes? Booya! */
 .post-id {}         /* post by id (i.e. post-3) */
 .post {}            /* general post style */
-.page {}            /* general article on a page style */
+.page {
+	min-height: 467px;
+}            /* general article on a page style */
 .attachment {}      /* general style on an attatchment */
 .sticky {}          /* sticky post style */
 .hentry {}          /* hentry class */
