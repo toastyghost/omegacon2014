@@ -12,6 +12,14 @@ and will be used across all viewports.
 /*********************
 GENERAL STYLES
 *********************/
+h1.title {
+	display: block;
+	height: 45px;
+	background: transparent url('../images/layout/logo-mobile.png') no-repeat center;
+	color: transparent;
+	overflow: hidden;
+}
+
 #venue-logo {
 	display: block;
 	margin: 0 auto;
