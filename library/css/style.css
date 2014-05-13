@@ -10959,7 +10959,7 @@ FOOTER STYLES
 *********************/
 /* line 890, ../scss/_small.scss */
 #social-links {
-  margin: 40px auto 0;
+  margin: 0 auto;
   display: block;
   width: 270px;
   height: 90px;
@@ -11138,7 +11138,6 @@ MEDIUM
 
   /* line 74, ../scss/_medium.scss */
   #main {
-    margin-bottom: 25px;
     padding-bottom: 25px;
   }
 
