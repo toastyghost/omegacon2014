@@ -10755,22 +10755,26 @@ SIDEBARS & ASIDES
 .widget.widget_categories ul {
   margin-left: 15px;
 }
-/* line 693, ../scss/_small.scss */
+/* line 691, ../scss/_small.scss */
+.widget.widget_categories ul li {
+  margin-bottom: 0.45em;
+}
+/* line 697, ../scss/_small.scss */
 .widget ul {
   margin: 0;
 }
-/* line 696, ../scss/_small.scss */
+/* line 700, ../scss/_small.scss */
 .widget ul li {
   list-style: none;
   /* deep nesting */
 }
 
-/* line 715, ../scss/_small.scss */
+/* line 719, ../scss/_small.scss */
 #sidebar-offcanvas .widgettitle {
   color: #fff;
 }
 
-/* line 720, ../scss/_small.scss */
+/* line 724, ../scss/_small.scss */
 .screen-reader-text {
   display: none;
 }
@@ -10778,54 +10782,54 @@ SIDEBARS & ASIDES
 /*********************
 EVENTS MANAGER STYLES
 *********************/
-/* line 727, ../scss/_small.scss */
+/* line 731, ../scss/_small.scss */
 .em-tickets {
   float: left;
   max-width: 580px;
 }
 
-/* line 732, ../scss/_small.scss */
+/* line 736, ../scss/_small.scss */
 .em-booking-form-details {
   float: left;
   background-color: #fff;
 }
 
-/* line 737, ../scss/_small.scss */
+/* line 741, ../scss/_small.scss */
 .em-tickets, .em-booking-form-details {
   margin-left: 10px;
 }
 
-/* line 741, ../scss/_small.scss */
+/* line 745, ../scss/_small.scss */
 .em-bookings-ticket-table-type {
   font-weight: bold;
 }
-/* line 744, ../scss/_small.scss */
+/* line 748, ../scss/_small.scss */
 .em-bookings-ticket-table-type .ticket-desc {
   font-weight: normal;
 }
 
-/* line 749, ../scss/_small.scss */
+/* line 753, ../scss/_small.scss */
 .em-booking-buttons {
   color: #000;
 }
 
-/* line 754, ../scss/_small.scss */
+/* line 758, ../scss/_small.scss */
 strong:contains("Location"),
 strong:contains("Categories") {
   display: none;
 }
 
-/* line 758, ../scss/_small.scss */
+/* line 762, ../scss/_small.scss */
 .em-booking-buttons {
   margin-top: 10px;
 }
 
-/* line 763, ../scss/_small.scss */
+/* line 767, ../scss/_small.scss */
 .ui-datepicker option {
   color: #000;
 }
 
-/* line 769, ../scss/_small.scss */
+/* line 773, ../scss/_small.scss */
 .em-attendee-fields:before {
   margin-left: 12px;
   content: 'Attendee Info';
@@ -10833,15 +10837,15 @@ strong:contains("Categories") {
   font-size: 16px;
   font-weight: bold;
 }
-/* line 777, ../scss/_small.scss */
+/* line 781, ../scss/_small.scss */
 .em-attendee-fields label, .em-attendee-fields input {
   margin-top: 12px;
 }
-/* line 781, ../scss/_small.scss */
+/* line 785, ../scss/_small.scss */
 .em-attendee-fields label {
   margin-left: 24px;
 }
-/* line 785, ../scss/_small.scss */
+/* line 789, ../scss/_small.scss */
 .em-attendee-fields input {
   max-width: 200px;
 }
@@ -10849,7 +10853,7 @@ strong:contains("Categories") {
 /*********************
 CONTACT FORM 7 STYLES
 *********************/
-/* line 794, ../scss/_small.scss */
+/* line 798, ../scss/_small.scss */
 .wpcf7-select,
 .wpcf7-submit {
   color: black;
@@ -10858,88 +10862,88 @@ CONTACT FORM 7 STYLES
 /*********************
 GOOGLE FORMS STYLES
 *********************/
-/* line 801, ../scss/_small.scss */
+/* line 805, ../scss/_small.scss */
 .ss-form-container {
   max-width: 70%;
 }
 
-/* line 805, ../scss/_small.scss */
+/* line 809, ../scss/_small.scss */
 .ss-form-heading .ss-required-asterisk {
   margin-bottom: 20px;
 }
 
-/* line 810, ../scss/_small.scss */
+/* line 814, ../scss/_small.scss */
 .ss-q-title,
 .ss-choice-label {
   font-family: 'Open Sans', Arial, sans-serif;
   color: #fff;
 }
-/* line 814, ../scss/_small.scss */
+/* line 818, ../scss/_small.scss */
 .ss-q-title label,
 .ss-choice-label label {
   display: inline;
 }
-/* line 818, ../scss/_small.scss */
+/* line 822, ../scss/_small.scss */
 .ss-q-title .ss-required-asterisk,
 .ss-choice-label .ss-required-asterisk {
   color: #ff0000;
 }
 
-/* line 823, ../scss/_small.scss */
+/* line 827, ../scss/_small.scss */
 .ss-choice-label {
   font-size: 13px;
 }
 
-/* line 827, ../scss/_small.scss */
+/* line 831, ../scss/_small.scss */
 .ss-text .ss-q-short {
   width: 400px;
 }
 
-/* line 831, ../scss/_small.scss */
+/* line 835, ../scss/_small.scss */
 .ss-select select {
   width: 200px;
 }
 
-/* line 835, ../scss/_small.scss */
+/* line 839, ../scss/_small.scss */
 option {
   color: #000;
 }
 
-/* line 840, ../scss/_small.scss */
+/* line 844, ../scss/_small.scss */
 .ss-radio,
 .ss-checkbox {
   margin-top: 40px;
   margin-bottom: 48px;
 }
-/* line 844, ../scss/_small.scss */
+/* line 848, ../scss/_small.scss */
 .ss-radio ul,
 .ss-checkbox ul {
   margin-top: 16px;
 }
 
-/* line 850, ../scss/_small.scss */
+/* line 854, ../scss/_small.scss */
 .ss-choice-item-control input {
   margin-bottom: 0.5rem;
 }
 
-/* line 855, ../scss/_small.scss */
+/* line 859, ../scss/_small.scss */
 .ss-q-other {
   height: 1.666rem !important;
   max-width: 300px;
 }
 
-/* line 861, ../scss/_small.scss */
+/* line 865, ../scss/_small.scss */
 .ss-paragraph-text textarea {
   width: 400px;
 }
 
-/* line 868, ../scss/_small.scss */
+/* line 872, ../scss/_small.scss */
 .wpgform-user-email label,
 .wpgform-captcha label {
   color: #000;
 }
 
-/* line 874, ../scss/_small.scss */
+/* line 878, ../scss/_small.scss */
 .ss-opt-actions,
 .ss-response-footer {
   display: none;
@@ -10948,19 +10952,19 @@ option {
 /*********************
 FOOTER STYLES
 *********************/
-/* line 882, ../scss/_small.scss */
+/* line 886, ../scss/_small.scss */
 #social-links {
   margin: 0 auto 220px;
   display: block;
   width: 270px;
   height: 90px;
 }
-/* line 888, ../scss/_small.scss */
+/* line 892, ../scss/_small.scss */
 #social-links li {
   display: inline-block;
   list-style-type: none;
 }
-/* line 892, ../scss/_small.scss */
+/* line 896, ../scss/_small.scss */
 #social-links li .social-icon {
   display: block;
   width: 90px;
@@ -10968,43 +10972,43 @@ FOOTER STYLES
   background-color: transparent;
   background-repeat: no-repeat;
 }
-/* line 899, ../scss/_small.scss */
+/* line 903, ../scss/_small.scss */
 #social-links li .social-icon#facebook-icon {
   background-image: url("../images/layout/satellite-fb-90.png");
 }
-/* line 903, ../scss/_small.scss */
+/* line 907, ../scss/_small.scss */
 #social-links li .social-icon#twitter-icon {
   background-image: url("../images/layout/satellite-tw-90.png");
 }
-/* line 907, ../scss/_small.scss */
+/* line 911, ../scss/_small.scss */
 #social-links li .social-icon#google-icon {
   background-image: url("../images/layout/satellite-g+-90.png");
 }
 
-/* line 914, ../scss/_small.scss */
+/* line 918, ../scss/_small.scss */
 .footer {
   clear: both;
   margin-top: 2em;
 }
 
-/* line 919, ../scss/_small.scss */
+/* line 923, ../scss/_small.scss */
 #footer {
   width: 100%;
   height: 140px;
   padding-top: 50px;
   overflow: hidden;
 }
-/* line 925, ../scss/_small.scss */
+/* line 929, ../scss/_small.scss */
 #footer #inner-footer {
   display: inline-block;
   position: relative;
   width: 200%;
 }
-/* line 930, ../scss/_small.scss */
+/* line 934, ../scss/_small.scss */
 #footer #inner-footer #dummy {
   margin-top: 100%;
 }
-/* line 934, ../scss/_small.scss */
+/* line 938, ../scss/_small.scss */
 #footer #inner-footer #footer-container {
   position: absolute;
   top: 0;
@@ -11015,7 +11019,7 @@ FOOTER STYLES
   border-radius: 50%;
   box-shadow: 0 0 60px rgba(255, 255, 255, 0.9), inset -10px -10px 240px rgba(255, 255, 255, 0.6);
 }
-/* line 945, ../scss/_small.scss */
+/* line 949, ../scss/_small.scss */
 #footer #inner-footer #footer-container #footer-content {
   margin: 0 auto;
   max-width: 940px;
@@ -11037,7 +11041,7 @@ view.
 /*********************
 FOUNDATION STYLES
 *********************/
-/* line 981, ../scss/_small.scss */
+/* line 985, ../scss/_small.scss */
 .clearing-assembled.clearing-blackout a:hover {
   background: none;
 }
@@ -11045,7 +11049,7 @@ FOUNDATION STYLES
 /*********************
 PLUGIN STYLES
 *********************/
-/* line 989, ../scss/_small.scss */
+/* line 993, ../scss/_small.scss */
 .gform_body ul {
   list-style: none outside none;
   margin: 0;
