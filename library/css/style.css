@@ -10898,13 +10898,14 @@ GOOGLE FORMS STYLES
   width: 400px;
 }
 
-/* line 838, ../scss/_small.scss */
+/* line 839, ../scss/_small.scss */
+.ss-select option label,
 .wpgform-user-email label,
 .wpgform-captcha label {
   color: #000;
 }
 
-/* line 844, ../scss/_small.scss */
+/* line 845, ../scss/_small.scss */
 .ss-opt-actions,
 .ss-response-footer {
   display: none;
@@ -10913,29 +10914,29 @@ GOOGLE FORMS STYLES
 /*********************
 FOOTER STYLES
 *********************/
-/* line 852, ../scss/_small.scss */
+/* line 853, ../scss/_small.scss */
 .footer {
   clear: both;
   margin-top: 2em;
 }
 
-/* line 857, ../scss/_small.scss */
+/* line 858, ../scss/_small.scss */
 #footer {
   width: 100%;
   height: 140px;
   overflow: hidden;
 }
-/* line 862, ../scss/_small.scss */
+/* line 863, ../scss/_small.scss */
 #footer #inner-footer {
   display: inline-block;
   position: relative;
   width: 200%;
 }
-/* line 867, ../scss/_small.scss */
+/* line 868, ../scss/_small.scss */
 #footer #inner-footer #dummy {
   margin-top: 100%;
 }
-/* line 871, ../scss/_small.scss */
+/* line 872, ../scss/_small.scss */
 #footer #inner-footer #footer-container {
   position: absolute;
   top: 0;
@@ -10946,7 +10947,7 @@ FOOTER STYLES
   border-radius: 50%;
   box-shadow: inset 0 0 240px rgba(255, 255, 255, 0.6);
 }
-/* line 881, ../scss/_small.scss */
+/* line 882, ../scss/_small.scss */
 #footer #inner-footer #footer-container #footer-content {
   margin: 0 auto;
   max-width: 940px;
@@ -10968,7 +10969,7 @@ view.
 /*********************
 FOUNDATION STYLES
 *********************/
-/* line 917, ../scss/_small.scss */
+/* line 918, ../scss/_small.scss */
 .clearing-assembled.clearing-blackout a:hover {
   background: none;
 }
@@ -10976,7 +10977,7 @@ FOUNDATION STYLES
 /*********************
 PLUGIN STYLES
 *********************/
-/* line 925, ../scss/_small.scss */
+/* line 926, ../scss/_small.scss */
 .gform_body ul {
   list-style: none outside none;
   margin: 0;
