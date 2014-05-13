@@ -879,6 +879,38 @@ option {
 FOOTER STYLES
 *********************/
 
+#social-links {
+	margin: 0 auto 220px;
+	display: block;
+	width: 270px;
+	height: 90px;
+	
+	li {
+		display: inline-block;
+		list-style-type: none;
+		
+		.social-icon {
+			display: block;
+			width: 90px;
+			height: 90px;
+			background-color: transparent;
+			background-repeat: no-repeat;
+			
+			&#facebook-icon {
+				background-image: url('../images/layout/satellite-fb-90.png');
+			}
+			
+			&#twitter-icon {
+				background-image: url('../images/layout/satellite-tw-90.png');
+			}
+			
+			&#google-icon {
+				background-image: url('../images/layout/satellite-g+-90.png');
+			}
+		}
+	}
+}
+
 .footer {
 	clear: both;
 	margin-top: 2em;

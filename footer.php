@@ -1,3 +1,9 @@
+					<ul id="social-links"><!--
+						--><li><a title="Facebook" id="facebook-icon" class="social-icon" href="http://facebook.com/omegaconVA" target="_blank"></a></li><!--
+						--><li><a title="Google+" id="google-icon" class="social-icon" href="http://google.com/+Omegaconvention" target="_blank"></a></li><!--
+						--><li><a title="Twitter" id="twitter-icon" class="social-icon" href="http://twitter.com/omegaconVA" target="_blank"></a></li><!--
+					--></ul>
+					
 					<footer id="footer" class="footer" role="contentinfo">
 					
 						<div id="inner-footer">
@@ -7,13 +13,11 @@
 							<div id="footer-container">
 								
 								<div id="footer-content">
-									<p id="copyright">&copy; 2014 Omega Games LLC</p>
-									
-									<ul id="social-links">
-										<li><a title="Google+" id="google-plus" href="http://google.com/+Omegaconvention" target="_blank">Google+</a></li>
-										<li><a title="Facebook" id="facebook" href="http://facebook.com/omegaconVA" target="_blank">Facebook</a></li>
-										<li><a title="Twitter" id="twitter" href="http://twitter.com/omegaconVA" target="_blank">Twitter</a></li>
-									</ul>
+									<p id="copyright">
+										&copy; 2014 Omega Games LLC<br>
+										The End Games @ 143 Zan Rd<br>
+										Charlottesville VA 22903
+									</p>
 								
 									<!--<nav role="navigation">
 			    						joints_footer_links();
