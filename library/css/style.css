@@ -11182,6 +11182,13 @@ MEDIUM
     height: 190px;
   }
 
+  /* line 121, ../scss/_medium.scss */
+  #copyright {
+    font-size: 22px;
+    line-height: 1.1em;
+    text-shadow: 1px 0 0 black, -1px 0 0 black, 0 1px 0 black, 0 -1px 0 black, 0.5px 0.5px 0 black, -0.5px -0.5px 0 black, 0.5px -0.5px 0 black, -0.5px 0.5px 0 black;
+  }
+
   /*
   check your menus here. do they look good?
   do they need tweaking?

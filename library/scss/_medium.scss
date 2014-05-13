@@ -118,6 +118,13 @@ FOOTER STYLES
 	height: 190px;
 }
 
+#copyright {
+	font-size: 22px;
+	line-height: 1.1em;
+	@include text-stroke-with-shadow(1px, #000, 0);
+	
+}
+
 /*
 check your menus here. do they look good?
 do they need tweaking?
