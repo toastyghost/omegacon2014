@@ -78,6 +78,12 @@ jQuery(document).ready(function($) {
 	if (navigator.appVersion.indexOf("Chrome/") != -1) {
 		$('#footer-container').css('border', '1px solid #6877b0');
 	}
+	
+	// make planet rotate
+	window.setInterval(function() {
+	    var $footer = $('#footer-container');
+	    $footer.css('background-position-y', parseInt($footer.css('background-position-y').replace('px', '')) - 1);
+	}, 41);
  
 }); /* end of as page load scripts */
 
