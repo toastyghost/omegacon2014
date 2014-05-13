@@ -10958,30 +10958,31 @@ FOOTER STYLES
 #footer {
   width: 100%;
   height: 140px;
+  padding-top: 50px;
   overflow: hidden;
 }
-/* line 892, ../scss/_small.scss */
+/* line 893, ../scss/_small.scss */
 #footer #inner-footer {
   display: inline-block;
   position: relative;
   width: 200%;
 }
-/* line 897, ../scss/_small.scss */
+/* line 898, ../scss/_small.scss */
 #footer #inner-footer #dummy {
   margin-top: 100%;
 }
-/* line 901, ../scss/_small.scss */
+/* line 902, ../scss/_small.scss */
 #footer #inner-footer #footer-container {
   position: absolute;
   top: 0;
   bottom: 0;
   left: -50%;
   right: 0;
-  background-color: #4f7b3a;
+  background: transparent url("../images/layout/Planet.png") no-repeat center top;
   border-radius: 50%;
-  box-shadow: inset 0 0 240px rgba(255, 255, 255, 0.6);
+  box-shadow: 0 0 60px rgba(255, 255, 255, 0.9), inset -10px -10px 240px rgba(255, 255, 255, 0.6);
 }
-/* line 911, ../scss/_small.scss */
+/* line 913, ../scss/_small.scss */
 #footer #inner-footer #footer-container #footer-content {
   margin: 0 auto;
   max-width: 940px;
@@ -11003,7 +11004,7 @@ view.
 /*********************
 FOUNDATION STYLES
 *********************/
-/* line 947, ../scss/_small.scss */
+/* line 949, ../scss/_small.scss */
 .clearing-assembled.clearing-blackout a:hover {
   background: none;
 }
@@ -11011,7 +11012,7 @@ FOUNDATION STYLES
 /*********************
 PLUGIN STYLES
 *********************/
-/* line 955, ../scss/_small.scss */
+/* line 957, ../scss/_small.scss */
 .gform_body ul {
   list-style: none outside none;
   margin: 0;
@@ -11093,24 +11094,30 @@ MEDIUM
     padding: 0 25px;
   }
 
+  /* line 74, ../scss/_medium.scss */
+  #main {
+    margin-bottom: 220px;
+    padding-bottom: 25px;
+  }
+
   /* entry content */
-  /* line 75, ../scss/_medium.scss */
+  /* line 80, ../scss/_medium.scss */
   .entry-content {
     /* at this larger size, we can start to align images */
   }
-  /* line 79, ../scss/_medium.scss */
+  /* line 84, ../scss/_medium.scss */
   .entry-content .alignleft, .entry-content img.alignleft {
     margin-right: 1.5em;
     display: inline;
     float: left;
   }
-  /* line 84, ../scss/_medium.scss */
+  /* line 89, ../scss/_medium.scss */
   .entry-content .alignright, .entry-content img.alignright {
     margin-left: 1.5em;
     display: inline;
     float: right;
   }
-  /* line 89, ../scss/_medium.scss */
+  /* line 94, ../scss/_medium.scss */
   .entry-content .aligncenter, .entry-content img.aligncenter {
     margin-right: auto;
     margin-left: auto;
@@ -11122,7 +11129,7 @@ MEDIUM
   /*********************
   SIDEBARS & ASIDES
   *********************/
-  /* line 102, ../scss/_medium.scss */
+  /* line 107, ../scss/_medium.scss */
   .widget {
     padding: 0 10px;
     margin: 2.2em 0;
@@ -11131,6 +11138,13 @@ MEDIUM
   /*********************
   FOOTER STYLES
   *********************/
+  /* line 115, ../scss/_medium.scss */
+  #footer {
+    position: fixed;
+    bottom: 0;
+    height: 190px;
+  }
+
   /*
   check your menus here. do they look good?
   do they need tweaking?
