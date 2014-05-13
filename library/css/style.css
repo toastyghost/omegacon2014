@@ -10899,7 +10899,7 @@ GOOGLE FORMS STYLES
 }
 
 /* line 839, ../scss/_small.scss */
-.ss-select option label,
+.ss-select select option label,
 .wpgform-user-email label,
 .wpgform-captcha label {
   color: #000;
