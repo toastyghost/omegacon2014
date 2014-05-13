@@ -10735,17 +10735,22 @@ COMMENT FORM STYLES
 /*********************
 SIDEBARS & ASIDES
 *********************/
-/* line 675, ../scss/_small.scss */
+/* line 665, ../scss/_small.scss */
+.sidebar {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* line 676, ../scss/_small.scss */
 .widget ul {
   margin: 0;
 }
-/* line 678, ../scss/_small.scss */
+/* line 679, ../scss/_small.scss */
 .widget ul li {
   list-style: none;
   /* deep nesting */
 }
 
-/* line 697, ../scss/_small.scss */
+/* line 698, ../scss/_small.scss */
 #sidebar-offcanvas .widgettitle {
   color: #fff;
 }
@@ -10753,54 +10758,54 @@ SIDEBARS & ASIDES
 /*********************
 EVENTS MANAGER STYLES
 *********************/
-/* line 705, ../scss/_small.scss */
+/* line 706, ../scss/_small.scss */
 .em-tickets {
   float: left;
   max-width: 580px;
 }
 
-/* line 710, ../scss/_small.scss */
+/* line 711, ../scss/_small.scss */
 .em-booking-form-details {
   float: left;
   background-color: #fff;
 }
 
-/* line 715, ../scss/_small.scss */
+/* line 716, ../scss/_small.scss */
 .em-tickets, .em-booking-form-details {
   margin-left: 10px;
 }
 
-/* line 719, ../scss/_small.scss */
+/* line 720, ../scss/_small.scss */
 .em-bookings-ticket-table-type {
   font-weight: bold;
 }
-/* line 722, ../scss/_small.scss */
+/* line 723, ../scss/_small.scss */
 .em-bookings-ticket-table-type .ticket-desc {
   font-weight: normal;
 }
 
-/* line 727, ../scss/_small.scss */
+/* line 728, ../scss/_small.scss */
 .em-booking-buttons {
   color: #000;
 }
 
-/* line 732, ../scss/_small.scss */
+/* line 733, ../scss/_small.scss */
 strong:contains("Location"),
 strong:contains("Categories") {
   display: none;
 }
 
-/* line 736, ../scss/_small.scss */
+/* line 737, ../scss/_small.scss */
 .em-booking-buttons {
   margin-top: 10px;
 }
 
-/* line 741, ../scss/_small.scss */
+/* line 742, ../scss/_small.scss */
 .ui-datepicker option {
   color: #000;
 }
 
-/* line 747, ../scss/_small.scss */
+/* line 748, ../scss/_small.scss */
 .em-attendee-fields:before {
   margin-left: 12px;
   content: 'Attendee Info';
@@ -10808,15 +10813,15 @@ strong:contains("Categories") {
   font-size: 16px;
   font-weight: bold;
 }
-/* line 755, ../scss/_small.scss */
+/* line 756, ../scss/_small.scss */
 .em-attendee-fields label, .em-attendee-fields input {
   margin-top: 12px;
 }
-/* line 759, ../scss/_small.scss */
+/* line 760, ../scss/_small.scss */
 .em-attendee-fields label {
   margin-left: 24px;
 }
-/* line 763, ../scss/_small.scss */
+/* line 764, ../scss/_small.scss */
 .em-attendee-fields input {
   max-width: 200px;
 }
@@ -10824,7 +10829,7 @@ strong:contains("Categories") {
 /*********************
 CONTACT FORM 7 STYLES
 *********************/
-/* line 772, ../scss/_small.scss */
+/* line 773, ../scss/_small.scss */
 .wpcf7-select,
 .wpcf7-submit {
   color: black;
@@ -10833,88 +10838,88 @@ CONTACT FORM 7 STYLES
 /*********************
 GOOGLE FORMS STYLES
 *********************/
-/* line 779, ../scss/_small.scss */
+/* line 780, ../scss/_small.scss */
 .ss-form-container {
   max-width: 70%;
 }
 
-/* line 783, ../scss/_small.scss */
+/* line 784, ../scss/_small.scss */
 .ss-form-heading .ss-required-asterisk {
   margin-bottom: 20px;
 }
 
-/* line 788, ../scss/_small.scss */
+/* line 789, ../scss/_small.scss */
 .ss-q-title,
 .ss-choice-label {
   font-family: 'Open Sans', Arial, sans-serif;
   color: #fff;
 }
-/* line 792, ../scss/_small.scss */
+/* line 793, ../scss/_small.scss */
 .ss-q-title label,
 .ss-choice-label label {
   display: inline;
 }
-/* line 796, ../scss/_small.scss */
+/* line 797, ../scss/_small.scss */
 .ss-q-title .ss-required-asterisk,
 .ss-choice-label .ss-required-asterisk {
   color: #ff0000;
 }
 
-/* line 801, ../scss/_small.scss */
+/* line 802, ../scss/_small.scss */
 .ss-choice-label {
   font-size: 13px;
 }
 
-/* line 805, ../scss/_small.scss */
+/* line 806, ../scss/_small.scss */
 .ss-text .ss-q-short {
   width: 400px;
 }
 
-/* line 809, ../scss/_small.scss */
+/* line 810, ../scss/_small.scss */
 .ss-select select {
   width: 200px;
 }
 
-/* line 813, ../scss/_small.scss */
+/* line 814, ../scss/_small.scss */
 option {
   color: #000;
 }
 
-/* line 818, ../scss/_small.scss */
+/* line 819, ../scss/_small.scss */
 .ss-radio,
 .ss-checkbox {
   margin-top: 40px;
   margin-bottom: 48px;
 }
-/* line 822, ../scss/_small.scss */
+/* line 823, ../scss/_small.scss */
 .ss-radio ul,
 .ss-checkbox ul {
   margin-top: 16px;
 }
 
-/* line 828, ../scss/_small.scss */
+/* line 829, ../scss/_small.scss */
 .ss-choice-item-control input {
   margin-bottom: 0.5rem;
 }
 
-/* line 833, ../scss/_small.scss */
+/* line 834, ../scss/_small.scss */
 .ss-q-other {
   height: 1.666rem !important;
   max-width: 300px;
 }
 
-/* line 839, ../scss/_small.scss */
+/* line 840, ../scss/_small.scss */
 .ss-paragraph-text textarea {
   width: 400px;
 }
 
-/* line 846, ../scss/_small.scss */
+/* line 847, ../scss/_small.scss */
 .wpgform-user-email label,
 .wpgform-captcha label {
   color: #000;
 }
 
-/* line 852, ../scss/_small.scss */
+/* line 853, ../scss/_small.scss */
 .ss-opt-actions,
 .ss-response-footer {
   display: none;
@@ -10923,29 +10928,29 @@ option {
 /*********************
 FOOTER STYLES
 *********************/
-/* line 860, ../scss/_small.scss */
+/* line 861, ../scss/_small.scss */
 .footer {
   clear: both;
   margin-top: 2em;
 }
 
-/* line 865, ../scss/_small.scss */
+/* line 866, ../scss/_small.scss */
 #footer {
   width: 100%;
   height: 140px;
   overflow: hidden;
 }
-/* line 870, ../scss/_small.scss */
+/* line 871, ../scss/_small.scss */
 #footer #inner-footer {
   display: inline-block;
   position: relative;
   width: 200%;
 }
-/* line 875, ../scss/_small.scss */
+/* line 876, ../scss/_small.scss */
 #footer #inner-footer #dummy {
   margin-top: 100%;
 }
-/* line 879, ../scss/_small.scss */
+/* line 880, ../scss/_small.scss */
 #footer #inner-footer #footer-container {
   position: absolute;
   top: 0;
@@ -10956,7 +10961,7 @@ FOOTER STYLES
   border-radius: 50%;
   box-shadow: inset 0 0 240px rgba(255, 255, 255, 0.6);
 }
-/* line 889, ../scss/_small.scss */
+/* line 890, ../scss/_small.scss */
 #footer #inner-footer #footer-container #footer-content {
   margin: 0 auto;
   max-width: 940px;
@@ -10978,7 +10983,7 @@ view.
 /*********************
 FOUNDATION STYLES
 *********************/
-/* line 925, ../scss/_small.scss */
+/* line 926, ../scss/_small.scss */
 .clearing-assembled.clearing-blackout a:hover {
   background: none;
 }
@@ -10986,7 +10991,7 @@ FOUNDATION STYLES
 /*********************
 PLUGIN STYLES
 *********************/
-/* line 933, ../scss/_small.scss */
+/* line 934, ../scss/_small.scss */
 .gform_body ul {
   list-style: none outside none;
   margin: 0;
