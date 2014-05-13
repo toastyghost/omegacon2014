@@ -806,6 +806,14 @@ GOOGLE FORMS STYLES
 	width: 400px;
 }
 
+.ss-select select {
+	width: 400px;
+}
+
+option {
+	color: #000;
+}
+
 .ss-radio,
 .ss-checkbox {
 	margin-top: 40px;
@@ -833,7 +841,6 @@ GOOGLE FORMS STYLES
 	}
 }
 
-.ss-select select option,
 .wpgform-user-email,
 .wpgform-captcha {
 	label {
