@@ -112,10 +112,18 @@ SIDEBARS & ASIDES
 /*********************
 FOOTER STYLES
 *********************/
+#social-links {
+	margin-bottom: 220px;
+}
+
 #footer {
 	position: fixed;
 	bottom: 0;
 	height: 190px;
+}
+
+#footer-content {
+	padding-top: 40px !important;
 }
 
 #copyright {

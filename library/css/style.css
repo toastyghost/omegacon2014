@@ -10954,7 +10954,7 @@ FOOTER STYLES
 *********************/
 /* line 886, ../scss/_small.scss */
 #social-links {
-  margin: 0 auto 220px;
+  margin: 40px auto 0;
   display: block;
   width: 270px;
   height: 90px;
@@ -11023,7 +11023,7 @@ FOOTER STYLES
 #footer #inner-footer #footer-container #footer-content {
   margin: 0 auto;
   max-width: 940px;
-  padding-top: 40px;
+  padding-top: 10px;
   text-align: center;
   color: #4b4b4b;
 }
@@ -11176,13 +11176,23 @@ MEDIUM
   FOOTER STYLES
   *********************/
   /* line 115, ../scss/_medium.scss */
+  #social-links {
+    margin-bottom: 220px;
+  }
+
+  /* line 119, ../scss/_medium.scss */
   #footer {
     position: fixed;
     bottom: 0;
     height: 190px;
   }
 
-  /* line 121, ../scss/_medium.scss */
+  /* line 125, ../scss/_medium.scss */
+  #footer-content {
+    padding-top: 40px !important;
+  }
+
+  /* line 129, ../scss/_medium.scss */
   #copyright {
     font-size: 20px;
     line-height: 1.2em;
