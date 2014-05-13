@@ -73,6 +73,11 @@ jQuery(document).ready(function($) {
 	$('strong').filter(':contains("Categories"), :contains("Location"), :contains("Date/Time")').closest('p').remove();
 	$('.em-location-map-container').parent('div').css('float', 'left').insertBefore('h3:contains("Bookings")').after('<br style="clear:both">');
 	$('.em-map-balloon-content > a').remove();
+	
+	// chrome footer fix
+	if (navigator.appVersion.indexOf("Chrome/") != -1) {
+		$('#footer-container').css('border', '1px solid #6877b0');
+	}
  
 }); /* end of as page load scripts */
 
