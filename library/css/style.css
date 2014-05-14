@@ -10242,6 +10242,22 @@ h1.title {
 }
 
 /* line 23, ../scss/_small.scss */
+#social-follow-widgets {
+  margin-top: 10px;
+  text-align: center;
+}
+/* line 27, ../scss/_small.scss */
+#social-follow-widgets div {
+  display: inline;
+  padding: 0 10px;
+}
+
+/* line 33, ../scss/_small.scss */
+#social-follow-widgets iframe {
+  vertical-align: middle;
+}
+
+/* line 37, ../scss/_small.scss */
 #venue-logo {
   display: block;
   margin: 0 auto;
@@ -10253,11 +10269,11 @@ h1.title {
   color: transparent;
 }
 
-/* line 34, ../scss/_small.scss */
+/* line 48, ../scss/_small.scss */
 #header-ctas {
   text-align: center;
 }
-/* line 37, ../scss/_small.scss */
+/* line 51, ../scss/_small.scss */
 #header-ctas .header-cta {
   display: block;
   margin: 5px 10px;
@@ -10266,21 +10282,21 @@ h1.title {
   background-color: #fff;
   color: #000;
 }
-/* line 46, ../scss/_small.scss */
+/* line 60, ../scss/_small.scss */
 #header-ctas .header-cta:hover {
   background-color: #c3c3c3;
 }
 
-/* line 52, ../scss/_small.scss */
+/* line 66, ../scss/_small.scss */
 body {
   background: black url("../images/layout/stars.png");
 }
-/* line 54, ../scss/_small.scss */
+/* line 68, ../scss/_small.scss */
 body * p, body * h1, body * h2, body * h3, body * h4, body * h5, body * h6, body * aside, body * blockquote {
   color: #fff;
 }
 
-/* line 62, ../scss/_small.scss */
+/* line 76, ../scss/_small.scss */
 #main {
   min-height: 467px;
   background-color: rgba(0, 0, 0, 0.7);
@@ -10331,13 +10347,13 @@ LAYOUT & GRID STYLES
 /*********************
 LINK STYLES
 *********************/
-/* line 116, ../scss/_small.scss */
+/* line 130, ../scss/_small.scss */
 a, a:visited {
   /*adds highlight on hover */
   /* on click */
   /* mobile tap color */
 }
-/* line 130, ../scss/_small.scss */
+/* line 144, ../scss/_small.scss */
 a:link, a:visited:link {
   /*
   this highlights links on iPhones/iPads.
@@ -10350,7 +10366,7 @@ a:link, a:visited:link {
 /******************************************************************
 H1, H2, H3, H4, H5 P STYLES
 ******************************************************************/
-/* line 145, ../scss/_small.scss */
+/* line 159, ../scss/_small.scss */
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
   /*
   if you're going to use webfonts, be sure to check your weights
@@ -10358,7 +10374,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
   */
   /* removing text decoration from all headline links */
 }
-/* line 152, ../scss/_small.scss */
+/* line 166, ../scss/_small.scss */
 h1 a, .h1 a, h2 a, .h2 a, h3 a, .h3 a, h4 a, .h4 a, h5 a, .h5 a {
   text-decoration: none;
 }
@@ -10366,29 +10382,29 @@ h1 a, .h1 a, h2 a, .h2 a, h3 a, .h3 a, h4 a, .h4 a, h5 a, .h5 a {
 /*********************
 HEADER STYLES
 *********************/
-/* line 181, ../scss/_small.scss */
+/* line 195, ../scss/_small.scss */
 .header {
   margin-bottom: 20px;
 }
-/* line 183, ../scss/_small.scss */
+/* line 197, ../scss/_small.scss */
 .header #inner-header {
   max-width: 100%;
 }
-/* line 186, ../scss/_small.scss */
+/* line 200, ../scss/_small.scss */
 .header #inner-header .columns {
   padding: 0;
 }
-/* line 190, ../scss/_small.scss */
+/* line 204, ../scss/_small.scss */
 .header #inner-header li {
   list-style: none;
 }
 
-/* line 196, ../scss/_small.scss */
+/* line 210, ../scss/_small.scss */
 #logo {
   display: none;
 }
 
-/* line 200, ../scss/_small.scss */
+/* line 214, ../scss/_small.scss */
 #dates {
   margin: 15px auto;
   color: #fff;
@@ -10401,29 +10417,29 @@ HEADER STYLES
 /*********************
 NAVIGATION STYLES
 *********************/
-/* line 212, ../scss/_small.scss */
+/* line 226, ../scss/_small.scss */
 .top-bar {
   background: #4b4b4b url("../images/layout/Shipstripe_sized.png") repeat-x;
 }
-/* line 215, ../scss/_small.scss */
+/* line 229, ../scss/_small.scss */
 .top-bar .title-area {
   z-index: 1;
 }
 
-/* line 220, ../scss/_small.scss */
+/* line 234, ../scss/_small.scss */
 .off-canvas-wrap {
   overflow: hidden;
 }
 
-/* line 225, ../scss/_small.scss */
+/* line 239, ../scss/_small.scss */
 .off-canvas-list ul {
   margin-left: 0;
 }
-/* line 228, ../scss/_small.scss */
+/* line 242, ../scss/_small.scss */
 .off-canvas-list ul li a {
   border-bottom: 0px;
 }
-/* line 232, ../scss/_small.scss */
+/* line 246, ../scss/_small.scss */
 .off-canvas-list ul .dropdown {
   margin-left: 20px;
 }
@@ -10431,11 +10447,11 @@ NAVIGATION STYLES
 /*********************
 POSTS & CONTENT STYLES
 *********************/
-/* line 242, ../scss/_small.scss */
+/* line 256, ../scss/_small.scss */
 #content {
   /*adds highlight on hover */
 }
-/* line 244, ../scss/_small.scss */
+/* line 258, ../scss/_small.scss */
 #content a:hover, #content a:focus {
   background: #d63131;
   color: #fff;
@@ -10452,13 +10468,13 @@ POSTS & CONTENT STYLES
 /* style by category (i.e. category-videos) */
 /* style by tag (i.e. tag-news) */
 /* post meta */
-/* line 280, ../scss/_small.scss */
+/* line 294, ../scss/_small.scss */
 .byline {
   color: #999;
 }
 
 /* entry content */
-/* line 286, ../scss/_small.scss */
+/* line 300, ../scss/_small.scss */
 .entry-content {
   /*
   image alignment on a screen this size may be
@@ -10467,24 +10483,24 @@ POSTS & CONTENT STYLES
   but it's up to you. Feel free to change it up.
   */
 }
-/* line 320, ../scss/_small.scss */
+/* line 334, ../scss/_small.scss */
 .entry-content dd {
   margin-left: 0;
   font-size: 0.9em;
   color: #787878;
   margin-bottom: 1.5em;
 }
-/* line 327, ../scss/_small.scss */
+/* line 341, ../scss/_small.scss */
 .entry-content img {
   max-width: 100%;
   height: auto;
 }
-/* line 342, ../scss/_small.scss */
+/* line 356, ../scss/_small.scss */
 .entry-content video, .entry-content object {
   max-width: 100%;
   height: auto;
 }
-/* line 347, ../scss/_small.scss */
+/* line 361, ../scss/_small.scss */
 .entry-content pre {
   background: #eee;
   border: 1px solid #cecece;
@@ -10492,20 +10508,20 @@ POSTS & CONTENT STYLES
 }
 
 /* end .entry-content */
-/* line 355, ../scss/_small.scss */
+/* line 369, ../scss/_small.scss */
 .wp-caption {
   max-width: 100%;
   background: #eee;
   padding: 5px;
   /* images inside wp-caption */
 }
-/* line 361, ../scss/_small.scss */
+/* line 375, ../scss/_small.scss */
 .wp-caption img {
   max-width: 100%;
   margin-bottom: 0;
   width: 100%;
 }
-/* line 367, ../scss/_small.scss */
+/* line 381, ../scss/_small.scss */
 .wp-caption p.wp-caption-text {
   font-size: 0.85em;
   margin: 4px 0 7px;
@@ -10519,7 +10535,7 @@ POSTS & CONTENT STYLES
 /******************************************************************
 PAGE NAVI STYLES
 ******************************************************************/
-/* line 404, ../scss/_small.scss */
+/* line 418, ../scss/_small.scss */
 .pagination a:hover {
   color: black;
 }
@@ -10528,17 +10544,17 @@ PAGE NAVI STYLES
 COMMENT STYLES
 ******************************************************************/
 /* h3 comment title */
-/* line 414, ../scss/_small.scss */
+/* line 428, ../scss/_small.scss */
 #comments {
   /* number of comments span */
 }
 
-/* line 422, ../scss/_small.scss */
+/* line 436, ../scss/_small.scss */
 #respond ul {
   margin-left: 0px;
 }
 
-/* line 437, ../scss/_small.scss */
+/* line 451, ../scss/_small.scss */
 .commentlist {
   /* general comment classes */
   /* vcard */
@@ -10549,7 +10565,7 @@ COMMENT STYLES
   /* comment reply link */
   /* end .commentlist .comment-reply-link */
 }
-/* line 439, ../scss/_small.scss */
+/* line 453, ../scss/_small.scss */
 .commentlist li {
   position: relative;
   clear: both;
@@ -10559,59 +10575,59 @@ COMMENT STYLES
   padding: 0.7335em 10px;
   /* end .commentlist li ul.children */
 }
-/* line 447, ../scss/_small.scss */
+/* line 461, ../scss/_small.scss */
 .commentlist li:last-child {
   margin-bottom: 0;
 }
-/* line 451, ../scss/_small.scss */
+/* line 465, ../scss/_small.scss */
 .commentlist li ul.children {
   margin: 0;
   /* variations */
   /* change number for different depth */
 }
-/* line 469, ../scss/_small.scss */
+/* line 483, ../scss/_small.scss */
 .commentlist li[class*=depth-] {
   margin-top: 1.1em;
 }
-/* line 473, ../scss/_small.scss */
+/* line 487, ../scss/_small.scss */
 .commentlist li.depth-1 {
   margin-left: 0;
   margin-top: 0;
 }
-/* line 478, ../scss/_small.scss */
+/* line 492, ../scss/_small.scss */
 .commentlist li:not(.depth-1) {
   margin-left: 10px;
   margin-top: 0;
   padding-bottom: 0;
   background: #d63131;
 }
-/* line 486, ../scss/_small.scss */
+/* line 500, ../scss/_small.scss */
 .commentlist li.depth-3 {
   background: #c62727;
 }
-/* line 510, ../scss/_small.scss */
+/* line 524, ../scss/_small.scss */
 .commentlist .vcard {
   margin-left: 50px;
 }
-/* line 513, ../scss/_small.scss */
+/* line 527, ../scss/_small.scss */
 .commentlist .vcard cite.fn {
   font-weight: 700;
   font-style: normal;
 }
-/* line 521, ../scss/_small.scss */
+/* line 535, ../scss/_small.scss */
 .commentlist .vcard time {
   float: right;
 }
-/* line 524, ../scss/_small.scss */
+/* line 538, ../scss/_small.scss */
 .commentlist .vcard time a {
   color: #999;
   text-decoration: none;
 }
-/* line 528, ../scss/_small.scss */
+/* line 542, ../scss/_small.scss */
 .commentlist .vcard time a:hover {
   text-decoration: underline;
 }
-/* line 538, ../scss/_small.scss */
+/* line 552, ../scss/_small.scss */
 .commentlist .vcard img.avatar {
   position: absolute;
   left: 10px;
@@ -10619,13 +10635,13 @@ COMMENT STYLES
   border: 1px solid #cecece;
   background: #fff;
 }
-/* line 565, ../scss/_small.scss */
+/* line 579, ../scss/_small.scss */
 .commentlist .comment_content p {
   margin: 0.7335em 0 1.5em;
   font-size: 1em;
   line-height: 1.5em;
 }
-/* line 574, ../scss/_small.scss */
+/* line 588, ../scss/_small.scss */
 .commentlist .comment-reply-link {
   border-style: solid;
   border-width: 0px;
@@ -10662,27 +10678,27 @@ COMMENT STYLES
 /******************************************************************
 COMMENT FORM STYLES
 ******************************************************************/
-/* line 591, ../scss/_small.scss */
+/* line 605, ../scss/_small.scss */
 .respond-form {
   margin: 1.5em 10px;
   padding-bottom: 2.2em;
 }
-/* line 595, ../scss/_small.scss */
+/* line 609, ../scss/_small.scss */
 .respond-form form {
   margin: 0.75em 0;
 }
-/* line 598, ../scss/_small.scss */
+/* line 612, ../scss/_small.scss */
 .respond-form form li {
   list-style-type: none;
   clear: both;
   margin-bottom: 0.7335em;
 }
-/* line 604, ../scss/_small.scss */
+/* line 618, ../scss/_small.scss */
 .respond-form form li label,
 .respond-form form li small {
   display: none;
 }
-/* line 612, ../scss/_small.scss */
+/* line 626, ../scss/_small.scss */
 .respond-form form input[type=text],
 .respond-form form input[type=email],
 .respond-form form input[type=url],
@@ -10693,14 +10709,14 @@ COMMENT FORM STYLES
   line-height: 1.5em;
   /* form validation */
 }
-/* line 618, ../scss/_small.scss */
+/* line 632, ../scss/_small.scss */
 .respond-form form input[type=text]:focus,
 .respond-form form input[type=email]:focus,
 .respond-form form input[type=url]:focus,
 .respond-form form textarea:focus {
   background: #fff;
 }
-/* line 623, ../scss/_small.scss */
+/* line 637, ../scss/_small.scss */
 .respond-form form input[type=text]:invalid,
 .respond-form form input[type=email]:invalid,
 .respond-form form input[type=url]:invalid,
@@ -10713,14 +10729,14 @@ COMMENT FORM STYLES
   -ms-box-shadow: none;
   box-shadow: none;
 }
-/* line 636, ../scss/_small.scss */
+/* line 650, ../scss/_small.scss */
 .respond-form form input[type=text],
 .respond-form form input[type=email],
 .respond-form form input[type=url] {
   max-width: 400px;
   min-width: 250px;
 }
-/* line 641, ../scss/_small.scss */
+/* line 655, ../scss/_small.scss */
 .respond-form form textarea {
   resize: none;
   width: 97.3%;
@@ -10729,7 +10745,7 @@ COMMENT FORM STYLES
 
 /* comment submit button */
 /* comment form title */
-/* line 654, ../scss/_small.scss */
+/* line 668, ../scss/_small.scss */
 #comment-form-title {
   margin: 0 0 1.1em;
 }
@@ -10737,13 +10753,13 @@ COMMENT FORM STYLES
 /* cancel comment reply link */
 /* logged in comments */
 /* allowed tags */
-/* line 667, ../scss/_small.scss */
+/* line 681, ../scss/_small.scss */
 #allowed_tags {
   margin: 1.5em 10px 0.7335em 0;
 }
 
 /* no comments */
-/* line 672, ../scss/_small.scss */
+/* line 686, ../scss/_small.scss */
 .nocomments {
   margin: 0 20px 1.1em;
 }
@@ -10751,35 +10767,35 @@ COMMENT FORM STYLES
 /*********************
 SIDEBARS & ASIDES
 *********************/
-/* line 680, ../scss/_small.scss */
+/* line 694, ../scss/_small.scss */
 .sidebar {
   background-color: rgba(0, 0, 0, 0.7);
 }
 
-/* line 692, ../scss/_small.scss */
+/* line 706, ../scss/_small.scss */
 .widget.widget_categories ul {
   margin-left: 15px;
 }
-/* line 695, ../scss/_small.scss */
+/* line 709, ../scss/_small.scss */
 .widget.widget_categories ul li {
   margin-bottom: 0.45em;
 }
-/* line 701, ../scss/_small.scss */
+/* line 715, ../scss/_small.scss */
 .widget ul {
   margin: 0;
 }
-/* line 704, ../scss/_small.scss */
+/* line 718, ../scss/_small.scss */
 .widget ul li {
   list-style: none;
   /* deep nesting */
 }
 
-/* line 723, ../scss/_small.scss */
+/* line 737, ../scss/_small.scss */
 #sidebar-offcanvas .widgettitle {
   color: #fff;
 }
 
-/* line 728, ../scss/_small.scss */
+/* line 742, ../scss/_small.scss */
 .screen-reader-text {
   display: none;
 }
@@ -10787,54 +10803,54 @@ SIDEBARS & ASIDES
 /*********************
 EVENTS MANAGER STYLES
 *********************/
-/* line 735, ../scss/_small.scss */
+/* line 749, ../scss/_small.scss */
 .em-tickets {
   float: left;
   max-width: 580px;
 }
 
-/* line 740, ../scss/_small.scss */
+/* line 754, ../scss/_small.scss */
 .em-booking-form-details {
   float: left;
   background-color: #fff;
 }
 
-/* line 745, ../scss/_small.scss */
+/* line 759, ../scss/_small.scss */
 .em-tickets, .em-booking-form-details {
   margin-left: 10px;
 }
 
-/* line 749, ../scss/_small.scss */
+/* line 763, ../scss/_small.scss */
 .em-bookings-ticket-table-type {
   font-weight: bold;
 }
-/* line 752, ../scss/_small.scss */
+/* line 766, ../scss/_small.scss */
 .em-bookings-ticket-table-type .ticket-desc {
   font-weight: normal;
 }
 
-/* line 757, ../scss/_small.scss */
+/* line 771, ../scss/_small.scss */
 .em-booking-buttons {
   color: #000;
 }
 
-/* line 762, ../scss/_small.scss */
+/* line 776, ../scss/_small.scss */
 strong:contains("Location"),
 strong:contains("Categories") {
   display: none;
 }
 
-/* line 766, ../scss/_small.scss */
+/* line 780, ../scss/_small.scss */
 .em-booking-buttons {
   margin-top: 10px;
 }
 
-/* line 771, ../scss/_small.scss */
+/* line 785, ../scss/_small.scss */
 .ui-datepicker option {
   color: #000;
 }
 
-/* line 777, ../scss/_small.scss */
+/* line 791, ../scss/_small.scss */
 .em-attendee-fields:before {
   margin-left: 12px;
   content: 'Attendee Info';
@@ -10842,15 +10858,15 @@ strong:contains("Categories") {
   font-size: 16px;
   font-weight: bold;
 }
-/* line 785, ../scss/_small.scss */
+/* line 799, ../scss/_small.scss */
 .em-attendee-fields label, .em-attendee-fields input {
   margin-top: 12px;
 }
-/* line 789, ../scss/_small.scss */
+/* line 803, ../scss/_small.scss */
 .em-attendee-fields label {
   margin-left: 24px;
 }
-/* line 793, ../scss/_small.scss */
+/* line 807, ../scss/_small.scss */
 .em-attendee-fields input {
   max-width: 200px;
 }
@@ -10858,7 +10874,7 @@ strong:contains("Categories") {
 /*********************
 CONTACT FORM 7 STYLES
 *********************/
-/* line 802, ../scss/_small.scss */
+/* line 816, ../scss/_small.scss */
 .wpcf7-select,
 .wpcf7-submit {
   color: black;
@@ -10867,88 +10883,88 @@ CONTACT FORM 7 STYLES
 /*********************
 GOOGLE FORMS STYLES
 *********************/
-/* line 809, ../scss/_small.scss */
+/* line 823, ../scss/_small.scss */
 .ss-form-container {
   max-width: 70%;
 }
 
-/* line 813, ../scss/_small.scss */
+/* line 827, ../scss/_small.scss */
 .ss-form-heading .ss-required-asterisk {
   margin-bottom: 20px;
 }
 
-/* line 818, ../scss/_small.scss */
+/* line 832, ../scss/_small.scss */
 .ss-q-title,
 .ss-choice-label {
   font-family: 'Open Sans', Arial, sans-serif;
   color: #fff;
 }
-/* line 822, ../scss/_small.scss */
+/* line 836, ../scss/_small.scss */
 .ss-q-title label,
 .ss-choice-label label {
   display: inline;
 }
-/* line 826, ../scss/_small.scss */
+/* line 840, ../scss/_small.scss */
 .ss-q-title .ss-required-asterisk,
 .ss-choice-label .ss-required-asterisk {
   color: #ff0000;
 }
 
-/* line 831, ../scss/_small.scss */
+/* line 845, ../scss/_small.scss */
 .ss-choice-label {
   font-size: 13px;
 }
 
-/* line 835, ../scss/_small.scss */
+/* line 849, ../scss/_small.scss */
 .ss-text .ss-q-short {
   width: 400px;
 }
 
-/* line 839, ../scss/_small.scss */
+/* line 853, ../scss/_small.scss */
 .ss-select select {
   width: 200px;
 }
 
-/* line 843, ../scss/_small.scss */
+/* line 857, ../scss/_small.scss */
 option {
   color: #000;
 }
 
-/* line 848, ../scss/_small.scss */
+/* line 862, ../scss/_small.scss */
 .ss-radio,
 .ss-checkbox {
   margin-top: 40px;
   margin-bottom: 48px;
 }
-/* line 852, ../scss/_small.scss */
+/* line 866, ../scss/_small.scss */
 .ss-radio ul,
 .ss-checkbox ul {
   margin-top: 16px;
 }
 
-/* line 858, ../scss/_small.scss */
+/* line 872, ../scss/_small.scss */
 .ss-choice-item-control input {
   margin-bottom: 0.5rem;
 }
 
-/* line 863, ../scss/_small.scss */
+/* line 877, ../scss/_small.scss */
 .ss-q-other {
   height: 1.666rem !important;
   max-width: 300px;
 }
 
-/* line 869, ../scss/_small.scss */
+/* line 883, ../scss/_small.scss */
 .ss-paragraph-text textarea {
   width: 400px;
 }
 
-/* line 876, ../scss/_small.scss */
+/* line 890, ../scss/_small.scss */
 .wpgform-user-email label,
 .wpgform-captcha label {
   color: #000;
 }
 
-/* line 882, ../scss/_small.scss */
+/* line 896, ../scss/_small.scss */
 .ss-opt-actions,
 .ss-response-footer {
   display: none;
@@ -10957,19 +10973,19 @@ option {
 /*********************
 FOOTER STYLES
 *********************/
-/* line 890, ../scss/_small.scss */
+/* line 904, ../scss/_small.scss */
 #social-links {
   margin: 0 auto;
   display: block;
   width: 270px;
   height: 90px;
 }
-/* line 896, ../scss/_small.scss */
+/* line 910, ../scss/_small.scss */
 #social-links li {
   display: inline-block;
   list-style-type: none;
 }
-/* line 900, ../scss/_small.scss */
+/* line 914, ../scss/_small.scss */
 #social-links li .social-icon {
   display: block;
   width: 90px;
@@ -10977,54 +10993,54 @@ FOOTER STYLES
   background-color: transparent;
   background-repeat: no-repeat;
 }
-/* line 907, ../scss/_small.scss */
+/* line 921, ../scss/_small.scss */
 #social-links li .social-icon#facebook-icon {
   background-image: url("../images/layout/satellite-fb-90.png");
 }
-/* line 911, ../scss/_small.scss */
+/* line 925, ../scss/_small.scss */
 #social-links li .social-icon#twitter-icon {
   background-image: url("../images/layout/satellite-tw-90.png");
 }
-/* line 915, ../scss/_small.scss */
+/* line 929, ../scss/_small.scss */
 #social-links li .social-icon#google-icon {
   background-image: url("../images/layout/satellite-g+-90.png");
 }
 
-/* line 922, ../scss/_small.scss */
+/* line 936, ../scss/_small.scss */
 .footer {
   clear: both;
   margin-top: 2em;
 }
 
-/* line 927, ../scss/_small.scss */
+/* line 941, ../scss/_small.scss */
 #footer {
   width: 100%;
   height: 140px;
   padding-top: 50px;
   overflow: hidden;
 }
-/* line 933, ../scss/_small.scss */
+/* line 947, ../scss/_small.scss */
 #footer #inner-footer {
   display: inline-block;
   position: relative;
   width: 200%;
 }
-/* line 938, ../scss/_small.scss */
+/* line 952, ../scss/_small.scss */
 #footer #inner-footer #dummy {
   margin-top: 100%;
 }
-/* line 942, ../scss/_small.scss */
+/* line 956, ../scss/_small.scss */
 #footer #inner-footer #footer-container {
   position: absolute;
   top: 0;
   bottom: 0;
   left: -50%;
   right: 0;
-  background: transparent url("../images/layout/Planet.png") repeat-y center top;
+  background: #072079 url("../images/layout/Planet_revised.png") repeat-y center top;
   border-radius: 50%;
   box-shadow: 0 0 60px rgba(255, 255, 255, 0.9), inset -10px -10px 240px rgba(255, 255, 255, 0.6);
 }
-/* line 953, ../scss/_small.scss */
+/* line 967, ../scss/_small.scss */
 #footer #inner-footer #footer-container #footer-content {
   margin: 0 auto;
   max-width: 940px;
@@ -11046,7 +11062,7 @@ view.
 /*********************
 FOUNDATION STYLES
 *********************/
-/* line 989, ../scss/_small.scss */
+/* line 1003, ../scss/_small.scss */
 .clearing-assembled.clearing-blackout a:hover {
   background: none;
 }
@@ -11054,7 +11070,7 @@ FOUNDATION STYLES
 /*********************
 PLUGIN STYLES
 *********************/
-/* line 997, ../scss/_small.scss */
+/* line 1011, ../scss/_small.scss */
 .gform_body ul {
   list-style: none outside none;
   margin: 0;

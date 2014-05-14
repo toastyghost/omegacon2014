@@ -38,6 +38,15 @@
 	</head>
 
 	<body <?php body_class(); ?>>
+		
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+		var js, fjs = d.getElementsByTagName(s)[0];
+		if (d.getElementById(id)) return;
+		js = d.createElement(s); js.id = id;
+		js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
+		fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
 
 	<div class="off-canvas-wrap">
 		<div class="inner-wrap">
@@ -51,6 +60,22 @@
 						
 						<div id="branding" class="large-12 columns">
 							<h1 id="logo"><?php bloginfo('name'); ?></h1>
+							
+							<div id="social-follow-widgets">
+								<div class="fb-like" data-href="https://facebook.com/omegaconVA" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
+								
+								<div class="g-follow" data-annotation="bubble" data-height="20" data-href="//plus.google.com/u/0/108459089226316214541" data-rel="publisher"></div>
+								<script type="text/javascript">
+									(function() {
+										var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+										po.src = 'https://apis.google.com/js/platform.js';
+										var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+									})();
+								</script>
+								
+								<a href="https://twitter.com/omegaconVA" class="twitter-follow-button" data-show-count="true" data-show-screen-name="false" data-lang="en">Follow</a>
+								<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+							</div>
 							
 							<div id="dates" class="branding-centered">
 								August 15 - 17 at <a id="venue-logo" title="Main Street Arena" href="http://www.mainstarena.com" target="_blank">Main Street Arena</a> in Charlottesville
