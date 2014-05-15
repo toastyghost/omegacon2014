@@ -13,10 +13,16 @@
 							<div id="footer-container">
 								
 								<div id="footer-content">
-									<p id="copyright">
+									<p id="copyright" class="footer-block">
 										&copy; 2014 Omega Games LLC<br>
 										The End Games @ 143 Zan Rd<br>
 										Charlottesville VA 22903
+									</p>
+									
+									<p id="contact-info" class="footer-block">
+										<a href="mailto:info@omegaconvention.com">info@omegaconvention.com</a><br>
+										<a href="tel:+14349732205">(434) 973-2205</a><br>
+										<a href="/contact">Contact Form</a>
 									</p>
 								
 									<!--<nav role="navigation">

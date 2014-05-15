@@ -11095,17 +11095,17 @@ FOOTER STYLES
 /* line 979, ../scss/_small.scss */
 #footer #inner-footer #footer-container #footer-content {
   margin: 0 auto;
-  max-width: 940px;
-  width: 95%;
+  max-width: 480px;
   padding-top: 10px;
   text-align: center;
   color: #4b4b4b;
 }
-/* line 987, ../scss/_small.scss */
-#footer #inner-footer #footer-container #footer-content #copyright {
+/* line 986, ../scss/_small.scss */
+#footer #inner-footer #footer-container #footer-content .footer-block {
+  float: left;
   display: block;
   text-align: left;
-  float: left;
+  color: #d3d3d3;
 }
 
 /*
@@ -11349,12 +11349,17 @@ you can add resource intensive styles.
   /*********************
   FOOTER STYLES
   *********************/
+  /* line 158, ../scss/_large.scss */
+  #footer-content {
+    max-width: 940px;
+  }
+
   /*
   you'll probably need to do quite a bit
   of overriding here if you styled them for
   mobile. Make sure to double check these!
   */
-  /* line 165, ../scss/_large.scss */
+  /* line 169, ../scss/_large.scss */
   .footer-links ul li {
     /*
     be careful with the depth of your menus.

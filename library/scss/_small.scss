@@ -978,16 +978,16 @@ FOOTER STYLES
 			
 			#footer-content {
 				margin: 0 auto;
-				max-width: 940px;
-				width: 95%;
+				max-width: 480px;
 				padding-top: 10px;
 				text-align: center;
 				color: #4b4b4b;
 				
-				#copyright {
+				.footer-block {
+					float: left;
 					display: block;
 					text-align: left;
-					float: left;
+					color: #d3d3d3;
 				}
 			}
 		}
