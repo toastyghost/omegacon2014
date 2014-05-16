@@ -10926,7 +10926,7 @@ GOOGLE FORMS STYLES
 }
 
 /* line 857, ../scss/_small.scss */
-option {
+select, option {
   color: #000;
 }
 
