@@ -978,16 +978,28 @@ FOOTER STYLES
 			
 			#footer-content {
 				margin: 0 auto;
-				max-width: 480px;
+				max-width: 410px;
 				padding-top: 10px;
 				text-align: center;
 				color: #4b4b4b;
 				
 				.footer-block {
-					float: left;
 					display: block;
-					text-align: left;
+					margin: 15px 0 0;
 					color: #d3d3d3;
+					font-size: 14px;
+					line-height: 1.333em;
+					@include text-stroke-with-shadow(1px, #000, 1px);
+					
+					&#copyright {
+						float: left;
+						text-align: left;
+					}
+					
+					&#contact-info {
+						float: right;
+						text-align: right;
+					}
 				}
 			}
 		}

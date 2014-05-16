@@ -11095,17 +11095,29 @@ FOOTER STYLES
 /* line 979, ../scss/_small.scss */
 #footer #inner-footer #footer-container #footer-content {
   margin: 0 auto;
-  max-width: 480px;
+  max-width: 410px;
   padding-top: 10px;
   text-align: center;
   color: #4b4b4b;
 }
 /* line 986, ../scss/_small.scss */
 #footer #inner-footer #footer-container #footer-content .footer-block {
-  float: left;
   display: block;
-  text-align: left;
+  margin: 15px 0 0;
   color: #d3d3d3;
+  font-size: 14px;
+  line-height: 1.333em;
+  text-shadow: 1px 0 1px black, -1px 0 1px black, 0 1px 1px black, 0 -1px 1px black, 0.5px 0.5px 1px black, -0.5px -0.5px 1px black, 0.5px -0.5px 1px black, -0.5px 0.5px 1px black;
+}
+/* line 994, ../scss/_small.scss */
+#footer #inner-footer #footer-container #footer-content .footer-block#copyright {
+  float: left;
+  text-align: left;
+}
+/* line 999, ../scss/_small.scss */
+#footer #inner-footer #footer-container #footer-content .footer-block#contact-info {
+  float: right;
+  text-align: right;
 }
 
 /*
@@ -11121,7 +11133,7 @@ view.
 /*********************
 FOUNDATION STYLES
 *********************/
-/* line 1022, ../scss/_small.scss */
+/* line 1034, ../scss/_small.scss */
 .clearing-assembled.clearing-blackout a:hover {
   background: none;
 }
@@ -11129,7 +11141,7 @@ FOUNDATION STYLES
 /*********************
 PLUGIN STYLES
 *********************/
-/* line 1030, ../scss/_small.scss */
+/* line 1042, ../scss/_small.scss */
 .gform_body ul {
   list-style: none outside none;
   margin: 0;
@@ -11265,17 +11277,14 @@ MEDIUM
     bottom: 0;
     height: 190px;
   }
-
-  /* line 125, ../scss/_medium.scss */
-  #footer-content {
+  /* line 126, ../scss/_medium.scss */
+  #footer #inner-footer #footer-container #footer-content {
+    max-width: 600px;
     padding-top: 40px !important;
   }
-
-  /* line 129, ../scss/_medium.scss */
-  #copyright {
-    font-size: 20px;
-    line-height: 1.2em;
-    text-shadow: 1px 0 1px black, -1px 0 1px black, 0 1px 1px black, 0 -1px 1px black, 0.5px 0.5px 1px black, -0.5px -0.5px 1px black, 0.5px -0.5px 1px black, -0.5px 0.5px 1px black;
+  /* line 130, ../scss/_medium.scss */
+  #footer #inner-footer #footer-container #footer-content .footer-block {
+    font-size: 16px;
   }
 
   /*
@@ -11349,9 +11358,13 @@ you can add resource intensive styles.
   /*********************
   FOOTER STYLES
   *********************/
-  /* line 158, ../scss/_large.scss */
-  #footer-content {
+  /* line 161, ../scss/_large.scss */
+  #footer #inner-footer #footer-container #footer-content {
     max-width: 940px;
+  }
+  /* line 164, ../scss/_large.scss */
+  #footer #inner-footer #footer-container #footer-content .footer-block {
+    font-size: 18px;
   }
 
   /*
@@ -11359,7 +11372,7 @@ you can add resource intensive styles.
   of overriding here if you styled them for
   mobile. Make sure to double check these!
   */
-  /* line 169, ../scss/_large.scss */
+  /* line 179, ../scss/_large.scss */
   .footer-links ul li {
     /*
     be careful with the depth of your menus.

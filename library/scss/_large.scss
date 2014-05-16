@@ -155,8 +155,18 @@ SIDEBARS & ASIDES
 FOOTER STYLES
 *********************/
 
-#footer-content {
-	max-width: 940px;
+#footer {
+	#inner-footer {
+		#footer-container {
+			#footer-content {
+				max-width: 940px;
+				
+				.footer-block {
+					font-size: 18px;
+				}
+			}
+		}
+	}
 }
 
 /*

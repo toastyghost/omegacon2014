@@ -21,8 +21,8 @@
 									
 									<p id="contact-info" class="footer-block">
 										<a href="mailto:info@omegaconvention.com">info@omegaconvention.com</a><br>
-										<a href="tel:+14349732205">(434) 973-2205</a><br>
-										<a href="/contact">Contact Form</a>
+										Store Phone: <a href="tel:+14349732205">(434) 973-2205</a><br>
+										Or use our <a href="/contact">Contact Form</a>
 									</p>
 								
 									<!--<nav role="navigation">

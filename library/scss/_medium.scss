@@ -120,17 +120,19 @@ FOOTER STYLES
 	position: fixed;
 	bottom: 0;
 	height: 190px;
-}
-
-#footer-content {
-	padding-top: 40px !important;
-}
-
-#copyright {
-	font-size: 20px;
-	line-height: 1.2em;
-	@include text-stroke-with-shadow(1px, #000, 1px);
 	
+	#inner-footer {
+		#footer-container {
+			#footer-content {
+				max-width: 600px;
+				padding-top: 40px !important;
+				
+				.footer-block {
+					font-size: 16px;
+				}
+			}
+		}
+	}
 }
 
 /*
