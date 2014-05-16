@@ -917,6 +917,11 @@ FOOTER STYLES
 			height: 90px;
 			background-color: transparent;
 			background-repeat: no-repeat;
+			opacity: 0.9;
+			
+			&:hover {
+				opacity: 1;
+			}
 			
 			&#facebook-icon {
 				background-image: url('../images/layout/satellite-fb-90.png');

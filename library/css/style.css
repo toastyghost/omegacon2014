@@ -10992,92 +10992,97 @@ FOOTER STYLES
   height: 90px;
   background-color: transparent;
   background-repeat: no-repeat;
+  opacity: 0.9;
 }
-/* line 921, ../scss/_small.scss */
+/* line 922, ../scss/_small.scss */
+#social-links li .social-icon:hover {
+  opacity: 1;
+}
+/* line 926, ../scss/_small.scss */
 #social-links li .social-icon#facebook-icon {
   background-image: url("../images/layout/satellite-fb-90.png");
 }
-/* line 925, ../scss/_small.scss */
+/* line 930, ../scss/_small.scss */
 #social-links li .social-icon#twitter-icon {
   background-image: url("../images/layout/satellite-tw-90.png");
 }
-/* line 929, ../scss/_small.scss */
+/* line 934, ../scss/_small.scss */
 #social-links li .social-icon#google-icon {
   background-image: url("../images/layout/satellite-g+-90.png");
 }
 
-/* line 936, ../scss/_small.scss */
+/* line 941, ../scss/_small.scss */
 .footer {
   clear: both;
   margin-top: 2em;
 }
 
 @-webkit-keyframes planetRotation {
-  /* line 942, ../scss/_small.scss */
+  /* line 947, ../scss/_small.scss */
   0% {
     background-position-y: 0;
   }
 
-  /* line 946, ../scss/_small.scss */
+  /* line 951, ../scss/_small.scss */
   100% {
     background-position-y: -611px;
   }
 }
 
 @-moz-keyframes planetRotation {
-  /* line 942, ../scss/_small.scss */
+  /* line 947, ../scss/_small.scss */
   0% {
     background-position-y: 0;
   }
 
-  /* line 946, ../scss/_small.scss */
+  /* line 951, ../scss/_small.scss */
   100% {
     background-position-y: -611px;
   }
 }
 
 @-o-keyframes planetRotation {
-  /* line 942, ../scss/_small.scss */
+  /* line 947, ../scss/_small.scss */
   0% {
     background-position-y: 0;
   }
 
-  /* line 946, ../scss/_small.scss */
+  /* line 951, ../scss/_small.scss */
   100% {
     background-position-y: -611px;
   }
 }
 
 @keyframes planetRotation {
-  /* line 942, ../scss/_small.scss */
+  /* line 947, ../scss/_small.scss */
   0% {
     background-position-y: 0;
   }
 
-  /* line 946, ../scss/_small.scss */
+  /* line 951, ../scss/_small.scss */
   100% {
     background-position-y: -611px;
   }
 }
 
-/* line 951, ../scss/_small.scss */
+/* line 956, ../scss/_small.scss */
 #footer {
   width: 100%;
   height: 140px;
   padding-top: 50px;
   overflow: hidden;
 }
-/* line 957, ../scss/_small.scss */
+/* line 962, ../scss/_small.scss */
 #footer #inner-footer {
   display: inline-block;
   position: relative;
   width: 200%;
 }
-/* line 962, ../scss/_small.scss */
+/* line 967, ../scss/_small.scss */
 #footer #inner-footer #dummy {
   margin-top: 100%;
 }
-/* line 966, ../scss/_small.scss */
+/* line 971, ../scss/_small.scss */
 #footer #inner-footer #footer-container {
   position: absolute;
   top: 0;
@@ -11092,7 +11097,7 @@ FOOTER STYLES
   -o-animation: planetRotation 60s infinite linear;
   animation: planetRotation 60s infinite linear;
 }
-/* line 979, ../scss/_small.scss */
+/* line 984, ../scss/_small.scss */
 #footer #inner-footer #footer-container #footer-content {
   margin: 0 auto;
   max-width: 410px;
@@ -11100,7 +11105,7 @@ FOOTER STYLES
   text-align: center;
   color: #4b4b4b;
 }
-/* line 986, ../scss/_small.scss */
+/* line 991, ../scss/_small.scss */
 #footer #inner-footer #footer-container #footer-content .footer-block {
   display: block;
   margin: 15px 0 0;
@@ -11109,12 +11114,12 @@ FOOTER STYLES
   line-height: 1.333em;
   text-shadow: 1px 0 1px black, -1px 0 1px black, 0 1px 1px black, 0 -1px 1px black, 0.5px 0.5px 1px black, -0.5px -0.5px 1px black, 0.5px -0.5px 1px black, -0.5px 0.5px 1px black;
 }
-/* line 994, ../scss/_small.scss */
+/* line 999, ../scss/_small.scss */
 #footer #inner-footer #footer-container #footer-content .footer-block#copyright {
   float: left;
   text-align: left;
 }
-/* line 999, ../scss/_small.scss */
+/* line 1004, ../scss/_small.scss */
 #footer #inner-footer #footer-container #footer-content .footer-block#contact-info {
   float: right;
   text-align: right;
@@ -11133,7 +11138,7 @@ view.
 /*********************
 FOUNDATION STYLES
 *********************/
-/* line 1034, ../scss/_small.scss */
+/* line 1039, ../scss/_small.scss */
 .clearing-assembled.clearing-blackout a:hover {
   background: none;
 }
@@ -11141,7 +11146,7 @@ FOUNDATION STYLES
 /*********************
 PLUGIN STYLES
 *********************/
-/* line 1042, ../scss/_small.scss */
+/* line 1047, ../scss/_small.scss */
 .gform_body ul {
   list-style: none outside none;
   margin: 0;
