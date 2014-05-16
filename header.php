@@ -65,13 +65,13 @@
 								<div class="fb-like" data-href="https://facebook.com/omegaconVA" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
 								
 								<!-- Place this tag where you want the widget to render. -->
-								<div class="g-follow" data-annotation="bubble" data-height="20" data-href="//plus.google.com/u/0/108459089226316214541" data-rel="publisher"></div>
+								<div class="g-follow" data-annotation="bubble" data-height="20" data-href="http://plus.google.com/u/0/108459089226316214541" data-rel="publisher"></div>
 								
 								<!-- Place this tag after the last widget tag. -->
 								<script type="text/javascript">
 								  (function() {
 								    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-								    po.src = 'https://apis.google.com/js/platform.js';
+								    po.src = 'http://apis.google.com/js/platform.js';
 								    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
 								  })();
 								</script>
