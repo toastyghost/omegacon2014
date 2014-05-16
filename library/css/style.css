@@ -10834,23 +10834,28 @@ EVENTS MANAGER STYLES
   color: #000;
 }
 
-/* line 776, ../scss/_small.scss */
+/* line 775, ../scss/_small.scss */
+.em-booking-login-form {
+  display: none;
+}
+
+/* line 780, ../scss/_small.scss */
 strong:contains("Location"),
 strong:contains("Categories") {
   display: none;
 }
 
-/* line 780, ../scss/_small.scss */
+/* line 784, ../scss/_small.scss */
 .em-booking-buttons {
   margin-top: 10px;
 }
 
-/* line 785, ../scss/_small.scss */
+/* line 789, ../scss/_small.scss */
 .ui-datepicker option {
   color: #000;
 }
 
-/* line 791, ../scss/_small.scss */
+/* line 795, ../scss/_small.scss */
 .em-attendee-fields:before {
   margin-left: 12px;
   content: 'Attendee Info';
@@ -10858,15 +10863,15 @@ strong:contains("Categories") {
   font-size: 16px;
   font-weight: bold;
 }
-/* line 799, ../scss/_small.scss */
+/* line 803, ../scss/_small.scss */
 .em-attendee-fields label, .em-attendee-fields input {
   margin-top: 12px;
 }
-/* line 803, ../scss/_small.scss */
+/* line 807, ../scss/_small.scss */
 .em-attendee-fields label {
   margin-left: 24px;
 }
-/* line 807, ../scss/_small.scss */
+/* line 811, ../scss/_small.scss */
 .em-attendee-fields input {
   max-width: 200px;
 }
@@ -10874,7 +10879,7 @@ strong:contains("Categories") {
 /*********************
 CONTACT FORM 7 STYLES
 *********************/
-/* line 816, ../scss/_small.scss */
+/* line 820, ../scss/_small.scss */
 .wpcf7-select,
 .wpcf7-submit {
   color: black;
@@ -10883,88 +10888,88 @@ CONTACT FORM 7 STYLES
 /*********************
 GOOGLE FORMS STYLES
 *********************/
-/* line 823, ../scss/_small.scss */
+/* line 827, ../scss/_small.scss */
 .ss-form-container {
   max-width: 70%;
 }
 
-/* line 827, ../scss/_small.scss */
+/* line 831, ../scss/_small.scss */
 .ss-form-heading .ss-required-asterisk {
   margin-bottom: 20px;
 }
 
-/* line 832, ../scss/_small.scss */
+/* line 836, ../scss/_small.scss */
 .ss-q-title,
 .ss-choice-label {
   font-family: 'Open Sans', Arial, sans-serif;
   color: #fff;
 }
-/* line 836, ../scss/_small.scss */
+/* line 840, ../scss/_small.scss */
 .ss-q-title label,
 .ss-choice-label label {
   display: inline;
 }
-/* line 840, ../scss/_small.scss */
+/* line 844, ../scss/_small.scss */
 .ss-q-title .ss-required-asterisk,
 .ss-choice-label .ss-required-asterisk {
   color: #ff0000;
 }
 
-/* line 845, ../scss/_small.scss */
+/* line 849, ../scss/_small.scss */
 .ss-choice-label {
   font-size: 13px;
 }
 
-/* line 849, ../scss/_small.scss */
+/* line 853, ../scss/_small.scss */
 .ss-text .ss-q-short {
   width: 400px;
 }
 
-/* line 853, ../scss/_small.scss */
+/* line 857, ../scss/_small.scss */
 .ss-select select {
   width: 200px;
 }
 
-/* line 857, ../scss/_small.scss */
+/* line 861, ../scss/_small.scss */
 select, option {
   color: #000;
 }
 
-/* line 862, ../scss/_small.scss */
+/* line 866, ../scss/_small.scss */
 .ss-radio,
 .ss-checkbox {
   margin-top: 40px;
   margin-bottom: 48px;
 }
-/* line 866, ../scss/_small.scss */
+/* line 870, ../scss/_small.scss */
 .ss-radio ul,
 .ss-checkbox ul {
   margin-top: 16px;
 }
 
-/* line 872, ../scss/_small.scss */
+/* line 876, ../scss/_small.scss */
 .ss-choice-item-control input {
   margin-bottom: 0.5rem;
 }
 
-/* line 877, ../scss/_small.scss */
+/* line 881, ../scss/_small.scss */
 .ss-q-other {
   height: 1.666rem !important;
   max-width: 300px;
 }
 
-/* line 883, ../scss/_small.scss */
+/* line 887, ../scss/_small.scss */
 .ss-paragraph-text textarea {
   width: 400px;
 }
 
-/* line 890, ../scss/_small.scss */
+/* line 894, ../scss/_small.scss */
 .wpgform-user-email label,
 .wpgform-captcha label {
   color: #000;
 }
 
-/* line 896, ../scss/_small.scss */
+/* line 900, ../scss/_small.scss */
 .ss-opt-actions,
 .ss-response-footer {
   display: none;
@@ -10973,19 +10978,19 @@ select, option {
 /*********************
 FOOTER STYLES
 *********************/
-/* line 903, ../scss/_small.scss */
+/* line 907, ../scss/_small.scss */
 #social-links {
   margin: 0 auto;
   display: block;
   width: 270px;
   height: 90px;
 }
-/* line 909, ../scss/_small.scss */
+/* line 913, ../scss/_small.scss */
 #social-links li {
   display: inline-block;
   list-style-type: none;
 }
-/* line 913, ../scss/_small.scss */
+/* line 917, ../scss/_small.scss */
 #social-links li .social-icon {
   display: block;
   width: 90px;
@@ -10994,95 +10999,95 @@ FOOTER STYLES
   background-repeat: no-repeat;
   opacity: 0.9;
 }
-/* line 921, ../scss/_small.scss */
+/* line 925, ../scss/_small.scss */
 #social-links li .social-icon:hover {
   opacity: 1;
 }
-/* line 925, ../scss/_small.scss */
+/* line 929, ../scss/_small.scss */
 #social-links li .social-icon#facebook-icon {
   background-image: url("../images/layout/satellite-fb-90.png");
 }
-/* line 929, ../scss/_small.scss */
+/* line 933, ../scss/_small.scss */
 #social-links li .social-icon#twitter-icon {
   background-image: url("../images/layout/satellite-tw-90.png");
 }
-/* line 933, ../scss/_small.scss */
+/* line 937, ../scss/_small.scss */
 #social-links li .social-icon#google-icon {
   background-image: url("../images/layout/satellite-g+-90.png");
 }
 
-/* line 940, ../scss/_small.scss */
+/* line 944, ../scss/_small.scss */
 .footer {
   clear: both;
   margin-top: 2em;
 }
 
 @-webkit-keyframes planetRotation {
-  /* line 946, ../scss/_small.scss */
+  /* line 950, ../scss/_small.scss */
   0% {
     background-position-y: 0;
   }
 
-  /* line 950, ../scss/_small.scss */
+  /* line 954, ../scss/_small.scss */
   100% {
     background-position-y: -611px;
   }
 }
 
 @-moz-keyframes planetRotation {
-  /* line 946, ../scss/_small.scss */
+  /* line 950, ../scss/_small.scss */
   0% {
     background-position-y: 0;
   }
 
-  /* line 950, ../scss/_small.scss */
+  /* line 954, ../scss/_small.scss */
   100% {
     background-position-y: -611px;
   }
 }
 
 @-o-keyframes planetRotation {
-  /* line 946, ../scss/_small.scss */
+  /* line 950, ../scss/_small.scss */
   0% {
     background-position-y: 0;
   }
 
-  /* line 950, ../scss/_small.scss */
+  /* line 954, ../scss/_small.scss */
   100% {
     background-position-y: -611px;
   }
 }
 
 @keyframes planetRotation {
-  /* line 946, ../scss/_small.scss */
+  /* line 950, ../scss/_small.scss */
   0% {
     background-position-y: 0;
   }
 
-  /* line 950, ../scss/_small.scss */
+  /* line 954, ../scss/_small.scss */
   100% {
     background-position-y: -611px;
   }
 }
 
-/* line 955, ../scss/_small.scss */
+/* line 959, ../scss/_small.scss */
 #footer {
   width: 100%;
   height: 140px;
   padding-top: 50px;
   overflow: hidden;
 }
-/* line 961, ../scss/_small.scss */
+/* line 965, ../scss/_small.scss */
 #footer #inner-footer {
   display: inline-block;
   position: relative;
   width: 200%;
 }
-/* line 966, ../scss/_small.scss */
+/* line 970, ../scss/_small.scss */
 #footer #inner-footer #dummy {
   margin-top: 100%;
 }
-/* line 970, ../scss/_small.scss */
+/* line 974, ../scss/_small.scss */
 #footer #inner-footer #footer-container {
   position: absolute;
   top: 0;
@@ -11098,7 +11103,7 @@ FOOTER STYLES
   -o-animation: planetRotation 60s infinite linear;
   animation: planetRotation 60s infinite linear;
 }
-/* line 984, ../scss/_small.scss */
+/* line 988, ../scss/_small.scss */
 #footer #inner-footer #footer-container #footer-content {
   margin: 0 auto;
   max-width: 410px;
@@ -11106,7 +11111,7 @@ FOOTER STYLES
   text-align: center;
   color: #4b4b4b;
 }
-/* line 991, ../scss/_small.scss */
+/* line 995, ../scss/_small.scss */
 #footer #inner-footer #footer-container #footer-content .footer-block {
   display: block;
   margin: 15px 0 0;
@@ -11115,12 +11120,12 @@ FOOTER STYLES
   line-height: 1.333em;
   text-shadow: 1px 0 1px black, -1px 0 1px black, 0 1px 1px black, 0 -1px 1px black, 0.5px 0.5px 1px black, -0.5px -0.5px 1px black, 0.5px -0.5px 1px black, -0.5px 0.5px 1px black;
 }
-/* line 999, ../scss/_small.scss */
+/* line 1003, ../scss/_small.scss */
 #footer #inner-footer #footer-container #footer-content .footer-block#copyright {
   float: left;
   text-align: left;
 }
-/* line 1004, ../scss/_small.scss */
+/* line 1008, ../scss/_small.scss */
 #footer #inner-footer #footer-container #footer-content .footer-block#contact-info {
   float: right;
   text-align: right;
@@ -11139,7 +11144,7 @@ view.
 /*********************
 FOUNDATION STYLES
 *********************/
-/* line 1039, ../scss/_small.scss */
+/* line 1043, ../scss/_small.scss */
 .clearing-assembled.clearing-blackout a:hover {
   background: none;
 }
@@ -11147,7 +11152,7 @@ FOUNDATION STYLES
 /*********************
 PLUGIN STYLES
 *********************/
-/* line 1047, ../scss/_small.scss */
+/* line 1051, ../scss/_small.scss */
 .gform_body ul {
   list-style: none outside none;
   margin: 0;
