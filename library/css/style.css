@@ -11090,6 +11090,7 @@ FOOTER STYLES
   left: -50%;
   right: 0;
   background: #072079 url("../images/layout/Planet.png") repeat-y center top;
+  background-size: 2201px 611px;
   border-radius: 50%;
   box-shadow: 0 0 60px rgba(255, 255, 255, 0.9), inset -10px -10px 240px rgba(255, 255, 255, 0.6);
   -webkit-animation: planetRotation 60s infinite linear;
@@ -11097,7 +11098,7 @@ FOOTER STYLES
   -o-animation: planetRotation 60s infinite linear;
   animation: planetRotation 60s infinite linear;
 }
-/* line 984, ../scss/_small.scss */
+/* line 985, ../scss/_small.scss */
 #footer #inner-footer #footer-container #footer-content {
   margin: 0 auto;
   max-width: 410px;
@@ -11105,7 +11106,7 @@ FOOTER STYLES
   text-align: center;
   color: #4b4b4b;
 }
-/* line 991, ../scss/_small.scss */
+/* line 992, ../scss/_small.scss */
 #footer #inner-footer #footer-container #footer-content .footer-block {
   display: block;
   margin: 15px 0 0;
@@ -11114,12 +11115,12 @@ FOOTER STYLES
   line-height: 1.333em;
   text-shadow: 1px 0 1px black, -1px 0 1px black, 0 1px 1px black, 0 -1px 1px black, 0.5px 0.5px 1px black, -0.5px -0.5px 1px black, 0.5px -0.5px 1px black, -0.5px 0.5px 1px black;
 }
-/* line 999, ../scss/_small.scss */
+/* line 1000, ../scss/_small.scss */
 #footer #inner-footer #footer-container #footer-content .footer-block#copyright {
   float: left;
   text-align: left;
 }
-/* line 1004, ../scss/_small.scss */
+/* line 1005, ../scss/_small.scss */
 #footer #inner-footer #footer-container #footer-content .footer-block#contact-info {
   float: right;
   text-align: right;
@@ -11138,7 +11139,7 @@ view.
 /*********************
 FOUNDATION STYLES
 *********************/
-/* line 1039, ../scss/_small.scss */
+/* line 1040, ../scss/_small.scss */
 .clearing-assembled.clearing-blackout a:hover {
   background: none;
 }
@@ -11146,7 +11147,7 @@ FOUNDATION STYLES
 /*********************
 PLUGIN STYLES
 *********************/
-/* line 1047, ../scss/_small.scss */
+/* line 1048, ../scss/_small.scss */
 .gform_body ul {
   list-style: none outside none;
   margin: 0;
