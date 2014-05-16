@@ -7,7 +7,6 @@
 					<footer id="footer" class="footer" role="contentinfo">
 					
 						<div id="inner-footer">
-							
 							<div id="dummy"></div>
 						
 							<div id="footer-container">
