@@ -46,7 +46,43 @@ jQuery(document).ready(function($) {
     
     /* if is larger than 481px */
     if (responsive_viewport > 481) {
-        
+    	
+        // detect css3 animation feature
+		var animation = false,
+			animationStr = 'animation',
+			keyframePrefix = '',
+			domPrefixes = 'Webkit Moz O ms Khtml'.split(' '),
+			pfx = '',
+			elem = document.getElementById('footer-container');
+		
+		if (elem.style.animationName !== undefined) {
+			animation = true;
+		}
+		
+		if (animation === false) {
+			for (var i = 0; i < domPrefixes.length; ++i) {
+				if (elem.style[domPrefixes[i] + 'AnimationName'] !== undefined) {
+					pfx = domPrefixes[i];
+					animationStr = pfx + 'Animation';
+					keyframePrefix = '-' + pfx.toLowerCase() + '-';
+					animation = true;
+					break;
+				}
+			}
+		}
+		
+		// if css3 animation not present, proceed w/ javascript method
+		if (!animation) {
+			// make planet rotate - jQuery perpetual callback method
+			function animate_footer() {
+				$('#footer-container').animate({'background-position-y': '-611px'}, 60000, 'linear', function() {
+					animate_footer();
+				});
+			}
+			
+			animate_footer();
+		}
+		
     } /* end larger than 481px */
     
     /* if is above or equal to 768px */
@@ -77,53 +113,6 @@ jQuery(document).ready(function($) {
 	// chrome footer fix
 	if (navigator.appVersion.indexOf("Chrome/") != -1) {
 		$('#footer-container').css('border', '1px solid #6877b0');
-	}
-	
-	// detect css3 animation feature
-	var animation = false,
-		animationStr = 'animation',
-		keyframePrefix = '',
-		domPrefixes = 'Webkit Moz O ms Khtml'.split(' '),
-		pfx = '',
-		elem = document.getElementById('footer-container');
-	
-	if (elem.style.animationName !== undefined) {
-		animation = true;
-	}
-	
-	if (animation === false) {
-		for (var i = 0; i < domPrefixes.length; ++i) {
-			if (elem.style[domPrefixes[i] + 'AnimationName'] !== undefined) {
-				pfx = domPrefixes[i];
-				animationStr = pfx + 'Animation';
-				keyframePrefix = '-' + pfx.toLowerCase() + '-';
-				animation = true;
-				break;
-			}
-		}
-	}
-	
-	// if css3 animation not present, proceed w/ javascript method
-	if (!animation) {
-		// make planet rotate - jQuery perpetual callback method
-		function animate_footer() {
-			$('#footer-container').animate({'background-position-y': '-611px'}, 60000, 'linear', function() {
-				animate_footer();
-			});
-		}
-		
-		animate_footer();
-		
-		// REMOVED: make planet rotate - setInterval method
-		/*var $footer = $('#footer-container'),
-			prop_name = 'background-position-y',
-			px_str = 'px',
-			empty_str = '',
-			frame_dur = 41;
-		
-		window.setInterval(function() {
-		    $footer.css(prop_name, --parseInt($footer.css(prop_name).replace(px_str, empty_str)));
-		}, frame_dur);*/
 	}
  
 }); /* end of as page load scripts */

@@ -59,6 +59,27 @@ POSTS & CONTENT STYLES
 	display: inline-block;
 	margin: 0 -27px;
 	padding-bottom: 96px;
+	width: 156px;
+	height: 65px;
+	background: transparent url('../images/layout/msarena_logo_sized_alpha.png') no-repeat;
+	overflow: hidden;
+	vertical-align: middle;
+	color: transparent;
+}
+
+#social-follow-widgets {
+	div {
+		display: inline;
+		padding: 0 10px;
+	}
+}
+
+#twitter-widget-0 {
+	margin-left: 10px !important;
+}
+
+#__follow_0 {
+	margin-right: 10px;
 }
 
 #header-ctas {
@@ -116,6 +137,16 @@ FOOTER STYLES
 	margin-bottom: 220px;
 }
 
+@include keyframes(planetRotation) {
+	0% {
+		background-position-y: 0;
+	}
+	
+	100% {
+		background-position-y: -611px;
+	}
+}
+
 #footer {
 	position: fixed;
 	bottom: 0;
@@ -123,6 +154,8 @@ FOOTER STYLES
 	
 	#inner-footer {
 		#footer-container {
+			@include animation('planetRotation 60s infinite linear');
+			
 			#footer-content {
 				max-width: 600px;
 				padding-top: 40px !important;
