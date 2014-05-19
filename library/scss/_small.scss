@@ -30,7 +30,8 @@ h1.title {
 	}
 }
 
-#social-follow-widgets iframe {
+#social-follow-widgets iframe,
+#social-follow-widgets > div {
 	vertical-align: middle;
 }
 
