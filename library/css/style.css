@@ -10254,7 +10254,7 @@ h1.title {
 
 /* line 33, ../scss/_small.scss */
 #twitter-widget-0 {
-  margin-left: 10px;
+  margin-left: 10px !important;
 }
 
 /* line 38, ../scss/_small.scss */
