@@ -10255,7 +10255,7 @@ h1.title {
 /* line 34, ../scss/_small.scss */
 #social-follow-widgets iframe,
 #social-follow-widgets div {
-  vertical-align: middle;
+  vertical-align: middle !important;
 }
 
 /* line 38, ../scss/_small.scss */
