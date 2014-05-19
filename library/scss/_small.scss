@@ -952,14 +952,11 @@ FOOTER STYLES
 			bottom: 0;
 			left: -50%;
 			right: 0;
-			background: #072079 url('../images/layout/Planet.png') repeat-y center top;
+			background: #072079 url('../images/layout/Planet.png') repeat-y center -250px;
 			background-size: 2201px 611px;
 			border-radius: 50%;
 			box-shadow: 0 0 60px rgba(255, 255, 255, 0.9),
 				inset -10px -10px 240px rgba(255, 255, 255, 0.6);
-			
-			// show some land when not animating the planet on small screens
-			background-position: 0 -250px;
 			
 			#footer-content {
 				margin: 0 auto;
