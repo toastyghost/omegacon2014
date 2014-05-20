@@ -793,7 +793,8 @@ strong:contains("Categories") {
 		margin-left: 24px;
 	}
 	
-	input {
+	input,
+	select {
 		max-width: 200px;
 	}
 }

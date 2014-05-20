@@ -10855,15 +10855,16 @@ strong:contains("Categories") {
 .em-attendee-fields label {
   margin-left: 24px;
 }
-/* line 796, ../scss/_small.scss */
-.em-attendee-fields input {
+/* line 797, ../scss/_small.scss */
+.em-attendee-fields input,
+.em-attendee-fields select {
   max-width: 200px;
 }
 
 /*********************
 CONTACT FORM 7 STYLES
 *********************/
-/* line 805, ../scss/_small.scss */
+/* line 806, ../scss/_small.scss */
 .wpcf7-select,
 .wpcf7-submit {
   color: black;
@@ -10872,88 +10873,88 @@ CONTACT FORM 7 STYLES
 /*********************
 GOOGLE FORMS STYLES
 *********************/
-/* line 812, ../scss/_small.scss */
+/* line 813, ../scss/_small.scss */
 .ss-form-container {
   max-width: 70%;
 }
 
-/* line 816, ../scss/_small.scss */
+/* line 817, ../scss/_small.scss */
 .ss-form-heading .ss-required-asterisk {
   margin-bottom: 20px;
 }
 
-/* line 821, ../scss/_small.scss */
+/* line 822, ../scss/_small.scss */
 .ss-q-title,
 .ss-choice-label {
   font-family: 'Open Sans', Arial, sans-serif;
   color: #fff;
 }
-/* line 825, ../scss/_small.scss */
+/* line 826, ../scss/_small.scss */
 .ss-q-title label,
 .ss-choice-label label {
   display: inline;
 }
-/* line 829, ../scss/_small.scss */
+/* line 830, ../scss/_small.scss */
 .ss-q-title .ss-required-asterisk,
 .ss-choice-label .ss-required-asterisk {
   color: #ff0000;
 }
 
-/* line 834, ../scss/_small.scss */
+/* line 835, ../scss/_small.scss */
 .ss-choice-label {
   font-size: 13px;
 }
 
-/* line 838, ../scss/_small.scss */
+/* line 839, ../scss/_small.scss */
 .ss-text .ss-q-short {
   width: 400px;
 }
 
-/* line 842, ../scss/_small.scss */
+/* line 843, ../scss/_small.scss */
 .ss-select select {
   width: 200px;
 }
 
-/* line 846, ../scss/_small.scss */
+/* line 847, ../scss/_small.scss */
 select, option {
   color: #000;
 }
 
-/* line 851, ../scss/_small.scss */
+/* line 852, ../scss/_small.scss */
 .ss-radio,
 .ss-checkbox {
   margin-top: 40px;
   margin-bottom: 48px;
 }
-/* line 855, ../scss/_small.scss */
+/* line 856, ../scss/_small.scss */
 .ss-radio ul,
 .ss-checkbox ul {
   margin-top: 16px;
 }
 
-/* line 861, ../scss/_small.scss */
+/* line 862, ../scss/_small.scss */
 .ss-choice-item-control input {
   margin-bottom: 0.5rem;
 }
 
-/* line 866, ../scss/_small.scss */
+/* line 867, ../scss/_small.scss */
 .ss-q-other {
   height: 1.666rem !important;
   max-width: 300px;
 }
 
-/* line 872, ../scss/_small.scss */
+/* line 873, ../scss/_small.scss */
 .ss-paragraph-text textarea {
   width: 400px;
 }
 
-/* line 879, ../scss/_small.scss */
+/* line 880, ../scss/_small.scss */
 .wpgform-user-email label,
 .wpgform-captcha label {
   color: #000;
 }
 
-/* line 885, ../scss/_small.scss */
+/* line 886, ../scss/_small.scss */
 .ss-opt-actions,
 .ss-response-footer {
   display: none;
@@ -10962,19 +10963,19 @@ select, option {
 /*********************
 FOOTER STYLES
 *********************/
-/* line 892, ../scss/_small.scss */
+/* line 893, ../scss/_small.scss */
 #social-links {
   margin: 0 auto;
   display: block;
   width: 270px;
   height: 90px;
 }
-/* line 898, ../scss/_small.scss */
+/* line 899, ../scss/_small.scss */
 #social-links li {
   display: inline-block;
   list-style-type: none;
 }
-/* line 902, ../scss/_small.scss */
+/* line 903, ../scss/_small.scss */
 #social-links li .social-icon {
   display: block;
   width: 90px;
@@ -10983,47 +10984,47 @@ FOOTER STYLES
   background-repeat: no-repeat;
   opacity: 0.9;
 }
-/* line 910, ../scss/_small.scss */
+/* line 911, ../scss/_small.scss */
 #social-links li .social-icon:hover {
   opacity: 1;
 }
-/* line 914, ../scss/_small.scss */
+/* line 915, ../scss/_small.scss */
 #social-links li .social-icon#facebook-icon {
   background-image: url("../images/layout/satellite-fb-90.png");
 }
-/* line 918, ../scss/_small.scss */
+/* line 919, ../scss/_small.scss */
 #social-links li .social-icon#twitter-icon {
   background-image: url("../images/layout/satellite-tw-90.png");
 }
-/* line 922, ../scss/_small.scss */
+/* line 923, ../scss/_small.scss */
 #social-links li .social-icon#google-icon {
   background-image: url("../images/layout/satellite-g+-90.png");
 }
 
-/* line 929, ../scss/_small.scss */
+/* line 930, ../scss/_small.scss */
 .footer {
   clear: both;
   margin-top: 2em;
 }
 
-/* line 934, ../scss/_small.scss */
+/* line 935, ../scss/_small.scss */
 #footer {
   width: 100%;
   height: 140px;
   padding-top: 50px;
   overflow: hidden;
 }
-/* line 940, ../scss/_small.scss */
+/* line 941, ../scss/_small.scss */
 #footer #inner-footer {
   display: inline-block;
   position: relative;
   width: 200%;
 }
-/* line 945, ../scss/_small.scss */
+/* line 946, ../scss/_small.scss */
 #footer #inner-footer #dummy {
   margin-top: 100%;
 }
-/* line 949, ../scss/_small.scss */
+/* line 950, ../scss/_small.scss */
 #footer #inner-footer #footer-container {
   position: absolute;
   top: 0;
@@ -11035,7 +11036,7 @@ FOOTER STYLES
   border-radius: 50%;
   box-shadow: 0 0 60px rgba(255, 255, 255, 0.9), inset -10px -10px 240px rgba(255, 255, 255, 0.6);
 }
-/* line 961, ../scss/_small.scss */
+/* line 962, ../scss/_small.scss */
 #footer #inner-footer #footer-container #footer-content {
   margin: 0 auto;
   max-width: 410px;
@@ -11043,7 +11044,7 @@ FOOTER STYLES
   text-align: center;
   color: #4b4b4b;
 }
-/* line 968, ../scss/_small.scss */
+/* line 969, ../scss/_small.scss */
 #footer #inner-footer #footer-container #footer-content .footer-block {
   display: block;
   margin: 15px 0 0;
@@ -11052,12 +11053,12 @@ FOOTER STYLES
   line-height: 1.333em;
   text-shadow: 1px 0 1px black, -1px 0 1px black, 0 1px 1px black, 0 -1px 1px black, 0.5px 0.5px 1px black, -0.5px -0.5px 1px black, 0.5px -0.5px 1px black, -0.5px 0.5px 1px black;
 }
-/* line 976, ../scss/_small.scss */
+/* line 977, ../scss/_small.scss */
 #footer #inner-footer #footer-container #footer-content .footer-block#copyright {
   float: left;
   text-align: left;
 }
-/* line 981, ../scss/_small.scss */
+/* line 982, ../scss/_small.scss */
 #footer #inner-footer #footer-container #footer-content .footer-block#contact-info {
   float: right;
   text-align: right;
@@ -11076,7 +11077,7 @@ view.
 /*********************
 FOUNDATION STYLES
 *********************/
-/* line 1016, ../scss/_small.scss */
+/* line 1017, ../scss/_small.scss */
 .clearing-assembled.clearing-blackout a:hover {
   background: none;
 }
@@ -11084,7 +11085,7 @@ FOUNDATION STYLES
 /*********************
 PLUGIN STYLES
 *********************/
-/* line 1024, ../scss/_small.scss */
+/* line 1025, ../scss/_small.scss */
 .gform_body ul {
   list-style: none outside none;
   margin: 0;
