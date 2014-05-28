@@ -87,12 +87,21 @@ jQuery(document).ready(function($) {
     
     /* if is above or equal to 768px */
     if (responsive_viewport >= 768) {
-    
-        /* load gravatars */
-        $('.comment img[data-gravatar]').each(function(){
-            $(this).attr('src',$(this).attr('data-gravatar'));
-        });
-    }
+		/* Bind asteroids game and show button to launch it */
+		$('#asteroids-start').show().on('click', function() {
+			var KICKASSVERSION = '2.0',
+				s = document.createElement('script');
+			
+			s.type = 'text/javascript';
+			document.body.appendChild(s);
+			s.src = '//hi.kickassapp.com/kickass.js';
+		});
+		
+		/* load gravatars */
+		$('.comment img[data-gravatar]').each(function(){
+			$(this).attr('src',$(this).attr('data-gravatar'));
+		});
+	}
     
     /* off the bat large screen actions */
     if (responsive_viewport > 1030) {
