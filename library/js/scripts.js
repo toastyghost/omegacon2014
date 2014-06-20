@@ -120,9 +120,6 @@ jQuery(document).ready(function($) {
 	$('.em-location-map-container').parent('div').css('float', 'left').insertBefore('h3:contains("Bookings")').after('<br style="clear:both">');
 	$('.em-map-balloon-content > a').remove();
 	
-	// vendor registration page fixes
-	$('.uam_login_form > .input').css('max-width', 400);
-	
 	// chrome footer fix
 	if (navigator.appVersion.indexOf("Chrome/") != -1) {
 		$('#footer-container').css('border', '1px solid #6877b0');
