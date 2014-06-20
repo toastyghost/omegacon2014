@@ -10966,7 +10966,7 @@ USER ACCESS MANAGER STYLES
 *********************/
 /* line 895, ../scss/_small.scss */
 .uam_login_form input {
-  max-width: 400px;
+  max-width: 400px !important;
 }
 
 /*********************
