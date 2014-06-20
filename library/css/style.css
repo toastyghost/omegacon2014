@@ -10965,7 +10965,7 @@ select, option {
 USER ACCESS MANAGER STYLES
 *********************/
 /* line 895, ../scss/_small.scss */
-#main .page .uam_login_form .input {
+#container > #content > #inner-content > #main > .page > section > form.uam_login_form > input {
   max-width: 400px !important;
 }
 

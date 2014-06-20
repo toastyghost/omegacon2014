@@ -892,7 +892,7 @@ select, option {
 USER ACCESS MANAGER STYLES
 *********************/
 
-#main .page .uam_login_form .input {
+#container > #content > #inner-content > #main > .page > section > form.uam_login_form > input.input {
 	max-width: 400px !important;
 }
 
