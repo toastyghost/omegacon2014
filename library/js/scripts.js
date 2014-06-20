@@ -111,6 +111,8 @@ jQuery(document).ready(function($) {
 	
 	// add all your scripts here
 	
+	console.log('test');
+	
 	// active menu border fix
 	$('.top-bar-section > ul > .current-menu-item, .top-bar-section .current-menu-parent').prev().children().css('border-right-color', '#2d2d2d');
 	
@@ -119,8 +121,6 @@ jQuery(document).ready(function($) {
 	$('i:contains("Map Unavailable")').remove();
 	$('.em-location-map-container').parent('div').css('float', 'left').insertBefore('h3:contains("Bookings")').after('<br style="clear:both">');
 	$('.em-map-balloon-content > a').remove();
-	
-	console.log('test');
 	
 	// chrome footer fix
 	if (navigator.appVersion.indexOf("Chrome/") != -1) {
