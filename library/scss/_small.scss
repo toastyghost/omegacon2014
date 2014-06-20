@@ -892,7 +892,9 @@ select, option {
 USER ACCESS MANAGER STYLES
 *********************/
 
-// nothing
+.uam_login_form > .input {
+	max-width: 400px !important;
+}
 
 /*********************
 FOOTER STYLES
