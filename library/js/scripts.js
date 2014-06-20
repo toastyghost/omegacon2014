@@ -127,6 +127,10 @@ jQuery(document).ready(function($) {
  
 }); /* end of as page load scripts */
 
+$(window).on('load', function() {
+	// STUPID FUCKING UAM FIX
+	$('.uam_login_form input').css('max-width', 400);
+});
 
 /*! A fix for the iOS orientationchange zoom bug.
  Script by @scottjehl, rebound by @wilto.
