@@ -127,8 +127,9 @@ jQuery(document).ready(function($) {
  
 }); /* end of as page load scripts */
 
-$(window).on('load', function() {
+$(window).load(function() {
 	// STUPID FUCKING UAM FIX
+	alert('test');
 	$('.uam_login_form > input').css('max-width', 400);
 });
 
