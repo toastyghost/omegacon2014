@@ -111,8 +111,6 @@ jQuery(document).ready(function($) {
 	
 	// add all your scripts here
 	
-	console.log('test');
-	
 	// active menu border fix
 	$('.top-bar-section > ul > .current-menu-item, .top-bar-section .current-menu-parent').prev().children().css('border-right-color', '#2d2d2d');
 	
