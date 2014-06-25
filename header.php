@@ -62,7 +62,7 @@
 							<h1 id="logo"><?php bloginfo('name'); ?></h1>
 							
 							<h2 id="presented-by">
-								presented by <img src="http://localhost/wp-content/themes/omegacon2014/library/images/layout/theend.png"/> games center
+								presented by <img src="<?php bloginfo('template_directory'); ?>/library/images/layout/theend.png"/> games center
 							</h2>
 							
 							<div id="social-follow-widgets">
