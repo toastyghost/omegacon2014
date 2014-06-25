@@ -61,6 +61,10 @@
 						<div id="branding" class="large-12 columns">
 							<h1 id="logo"><?php bloginfo('name'); ?></h1>
 							
+							<h2 id="presented-by">
+								presented by <img src="http://localhost/wp-content/themes/omegacon2014/library/images/layout/theend.png"/> games center
+							</h2>
+							
 							<div id="social-follow-widgets">
 								<div class="fb-like" data-href="https://facebook.com/omegaconVA" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
 								
