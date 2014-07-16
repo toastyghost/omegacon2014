@@ -10241,16 +10241,13 @@ h1.title {
   overflow: hidden;
 }
 
-/* line 23, ../scss/_small.scss */
-#presented-by {
-  display: none;
-  /* for now */
-  margin-bottom: 8px;
-  font-size: 18px;
-  text-align: center;
-  font-variant: small-caps;
-}
-
+/*#presented-by {
+	display: none;
+	margin-bottom: 8px;
+	font-size: 18px;
+	text-align: center;
+	font-variant: small-caps;
+}*/
 /* line 31, ../scss/_small.scss */
 #social-follow-widgets {
   margin-top: 10px;
