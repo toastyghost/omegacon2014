@@ -85,7 +85,7 @@
 							</div>
 							
 							<div id="dates" class="branding-centered">
-								August 15 - 17 at <a id="venue-logo" title="Main Street Arena" href="http://www.mainstarena.com" target="_blank">Main Street Arena</a> in Charlottesville
+								Aug 15, 2pm - Aug 17, 6pm at <a id="venue-logo" title="Main Street Arena" href="http://www.mainstarena.com" target="_blank">Main Street Arena</a> in Charlottesville, Virginia
 							</div>
 							
 							<div id="header-ctas" class="branding-centered">
